@@ -1,0 +1,3356 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-scheme="dark" style="scroll-behavior: smooth">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WORD Token</title>
+    <meta name="title" content="WORD Token" />
+    <meta
+      name="description"
+      content="Tokenized integrated payment system per word"
+    />
+    <link rel="canonical" href="https://netword.ai/token" />
+    <meta name="theme-color" content="#000821" />
+    <meta name="language" content="en" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="/dist/css/style.css" />
+    <script src="/dist/js/darkMode.bundle.js"></script>
+
+    <link rel="shortcut icon" href="/dist/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/dist/img/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/dist/img/apple-touch-icon-114x114.png"
+    />
+
+    <meta name="keywords" content="" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://netword.ai/token" />
+    <meta property="og:title" content="WORD Token" />
+    <meta
+      property="og:description"
+      content="Tokenized integrated payment system per word"
+    />
+    <meta
+      property="og:image"
+      content="https://netword.ai/dist/img/social/token.jpg"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://netword.ai/token" />
+    <meta property="twitter:title" content="WORD Token" />
+    <meta
+      property="twitter:description"
+      content="Tokenized integrated payment system per word"
+    />
+    <meta
+      property="twitter:image"
+      content="https://netword.ai/dist/img/social/token.jpg"
+    />
+  </head>
+  <body
+    class="token antialiased overflow-x-hidden text-lg font-light font-body text-jacarta-800 dark:bg-jacarta-900 dark:text-jacarta-200"
+    itemscope
+    itemtype="http://schema.org/WebPage"
+  >
+    <!-- #region header -->
+    <header
+      class="js-page-header page-header--transparent absolute top-0 z-20 w-full transition-colors font-bold"
+    >
+      <div class="flex items-center px-6 py-5 xl:px-24">
+        <!-- ! Logo -->
+        <a href="/" class="shrink-0" aria-label="Return to home">
+          <img
+            src="/dist/img/logo-black.svg"
+            class="h-6 dark:hidden"
+            alt="Netword Logo"
+            width="172"
+            height="24"
+          />
+          <img
+            src="/dist/img/logo-white.svg"
+            class="hidden h-6 dark:block"
+            alt="Netword Logo"
+            width="172"
+            height="24"
+            loading="lazy"
+          />
+        </a>
+        <!-- Menu / Actions -->
+        <div class="js-mobile-menu mobile-menu">
+          <!-- Mobile Logo / Menu Close -->
+          <div class="flex w-full items-center justify-between py-5 lg:hidden">
+            <!-- Mobile Logo -->
+            <a href="/" class="shrink-0" aria-label="Return to home">
+              <img
+                src="/dist/img/logo-black.svg"
+                class="max-h-6 dark:hidden"
+                alt="Netword Logo"
+                width="172"
+                height="24"
+              />
+              <img
+                src="/dist/img/logo-white.svg"
+                class="hidden h-6 dark:block"
+                alt="Netword Logo"
+                width="172"
+                height="24"
+                loading="lazy"
+              />
+            </a>
+
+            <!-- Mobile Menu Close -->
+            <button
+              class="js-mobile-close group mobile-close"
+              aria-label="close mobile menu"
+            >
+              <i class="lg:hidden icon-x"></i>
+            </button>
+          </div>
+
+          <!-- Primary Nav -->
+          <nav class="navbar w-full">
+            <ul class="flex flex-col lg:flex-row">
+              <li class="js-nav-dropdown group relative">
+                <a
+                  href="#"
+                  class="dropdown-toggle menu-toggle"
+                  aria-label="Products Menu"
+                  id="navDropdown-1"
+                  aria-expanded="false"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Products
+                  <i class="lg:hidden icon-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu submenu"
+                  aria-labelledby="navDropdown-1"
+                >
+                  <li>
+                    <a
+                      href="/ai-translation"
+                      aria-label="AI Translation Product Page"
+                      class="submenu-item"
+                    >
+                      <span>AI Translation</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/proofreaders"
+                      aria-label="Proofreaders Pool Product Page"
+                      class="submenu-item"
+                    >
+                      <span>Profreaders Pool</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/gpu-sharing"
+                      aria-label="GPU Sharing Product Page"
+                      class="submenu-item"
+                    >
+                      <span>GPU Sharing</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="js-nav-dropdown group relative">
+                <a
+                  href="#"
+                  class="dropdown-toggle menu-toggle"
+                  aria-label="NFT Menu"
+                  id="navDropdown-2"
+                  aria-expanded="false"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >NFT
+                  <i class="lg:hidden icon-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu submenu"
+                  aria-labelledby="navDropdown-2"
+                >
+                  <li>
+                    <a
+                      href="/nft"
+                      aria-label="NFT Collections Page"
+                      class="submenu-item"
+                    >
+                      <span>NFT Collections</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/nft/nft-word"
+                      aria-label="NFT Word Collection Page"
+                      class="submenu-item"
+                    >
+                      <span>NFT Word</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/nft/gallery"
+                      aria-label="NFT Gallery Page"
+                      class="submenu-item"
+                    >
+                      <span>NFT Gallery</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="js-nav-dropdown group relative">
+                <a
+                  href="#"
+                  class="dropdown-toggle menu-toggle"
+                  aria-label="Token Menu"
+                  id="navDropdown-3"
+                  aria-expanded="false"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Token
+                  <i class="lg:hidden icon-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu submenu submenu-2col lg:-translate-x-10"
+                  aria-labelledby="navDropdown-3"
+                >
+                  <li>
+                    <a
+                      href="/token"
+                      aria-label="Token Description Page"
+                      class="submenu-item"
+                    >
+                      <span>What's $WORD</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#protocol"
+                      aria-label="Token Protocol Section"
+                      class="submenu-item"
+                    >
+                      <span>Protocol</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#allocation"
+                      aria-label="Token Allocation Section"
+                      class="submenu-item"
+                    >
+                      <span>Allocation</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#vesting"
+                      aria-label="Token Vesting Section"
+                      class="submenu-item"
+                    >
+                      <span>Vesting</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#use-cases"
+                      aria-label="Token Use Cases Section"
+                      class="submenu-item"
+                    >
+                      <span>Use Cases</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#capabilities"
+                      aria-label="Token Capabilities Section"
+                      class="submenu-item"
+                    >
+                      <span>Capabilities</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#trade"
+                      aria-label="Token Trading Channel Section"
+                      class="submenu-item"
+                    >
+                      <span>Buy & Sell</span>
+                      <span class="tag-bubble">soon</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#roadmap"
+                      aria-label="Netword Roadmap Section"
+                      class="submenu-item"
+                    >
+                      <span>Roadmap</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#faq"
+                      aria-label="Token FAQ Section"
+                      class="submenu-item"
+                    >
+                      <span>Token FAQ</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/token#waitlist"
+                      aria-label="Join Waitlist Section"
+                      class="submenu-item"
+                    >
+                      <span>Join Waitlist</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="js-nav-dropdown group relative">
+                <a
+                  href="#"
+                  class="dropdown-toggle menu-toggle"
+                  aria-label="Resources Menu"
+                  id="navDropdown-4"
+                  aria-expanded="false"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Resources
+                  <i class="lg:hidden icon-down"></i>
+                </a>
+                <ul
+                  class="dropdown-menu submenu"
+                  aria-labelledby="navDropdown-4"
+                >
+                  <li>
+                    <a
+                      href="/tracker"
+                      aria-label="Netword Tracker Page"
+                      class="submenu-item"
+                    >
+                      <span>Tracker</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/tracker#whitepaper"
+                      aria-label="About us page"
+                      class="submenu-item"
+                    >
+                      <span>Whitepaper</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://docs.netword.ai/"
+                      aria-label="Documentation Page"
+                      class="submenu-item"
+                    >
+                      <span>Docs</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="mt-10 w-full lg:hidden">
+            <hr class="my-5 h-px border-0 bg-jacarta-100 dark:bg-jacarta-700" />
+            <div class="flex items-center justify-center space-x-5">
+              <a href="https://x.com/networdai" class="group">
+                <i class="icon-twitter"></i>
+              </a>
+              <a href="https://t.me/networdai" class="group">
+                <i class="icon-telegram"></i>
+              </a>
+              <a href="https://discord.gg/networdai" class="group">
+                <i class="icon-discord"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="ml-6 hidden lg:flex xl:ml-8">
+            <!-- Dark Mode -->
+            <a
+              href="#"
+              data-tippy-content="Light mode is beta"
+              class="js-dark-mode-trigger group menu-btn"
+            >
+              <i class="dark-mode-light dark:hidden icon-light"></i>
+              <i class="dark-mode-dark hidden dark:block icon-dark"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Actions -->
+        <div class="ml-auto flex lg:hidden">
+          <!-- Dark Mode -->
+          <a href="#" class="js-dark-mode-trigger group menu-btn">
+            <i class="dark-mode-light dark:hidden icon-light"></i>
+            <i class="dark-mode-dark hidden dark:block icon-dark"></i>
+          </a>
+
+          <!-- Mobile Menu Toggle -->
+          <button
+            class="js-mobile-toggle group menu-btn"
+            aria-label="open mobile menu"
+          >
+            <i class="icon-menu"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- #endregion -->
+    <div
+      class="modal fade"
+      id="suggest-change"
+      tabindex="-1"
+      aria-labelledby="suggest-change-label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog max-w-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="suggest-change-label">
+              Improving Suggestion
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="icon-x w-10"></i>
+            </button>
+          </div>
+          <div class="modal-body p-3 lg:p-5">
+            <a
+              href="/forms/suggest"
+              class="hover:underline hover:text-accent text-right block text-sm"
+              target="_blank"
+              >Open on separate page</a
+            >
+            <form method="POST" id="suggestionForm">
+              <div
+                id="form-fields"
+                class="max-h-[1000px] overflow-hidden duration-700 transition-all"
+              >
+                <div class="p-1">
+                  <div class="mb-4">
+                    <label for="present-code" class="mb-3 block">
+                      <p class="mb-1">
+                        <span class="dark:text-white">Existing Code</span
+                        ><span class="ml-1 text-red">*</span>
+                      </p>
+                      <p class="font-display text-sm">
+                        Paste the code you want to improve.
+                      </p>
+                    </label>
+                    <textarea
+                      name="present-code"
+                      id="present-code"
+                      rows="3"
+                      class="input-item input-style scrollbar-custom align-top"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="mb-4">
+                    <label for="improve-code" class="mb-3 block">
+                      <p class="mb-1">
+                        <span class="dark:text-white">Improvement Code</span
+                        ><span class="ml-1 text-red">*</span>
+                      </p>
+                      <p class="font-display text-sm">
+                        Insert the improvement.
+                      </p>
+                    </label>
+                    <textarea
+                      name="improve-code"
+                      id="improve-code"
+                      rows="3"
+                      class="input-item input-style scrollbar-custom align-top"
+                      required
+                    ></textarea>
+                  </div>
+                  <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    class="input-item input-style mb-4"
+                    placeholder="Enter your email address"
+                    autocomplete="email"
+                    required
+                  />
+                  <input
+                    name="wallet"
+                    id="wallet"
+                    type="text"
+                    class="input-item input-style"
+                    placeholder="Enter your wallet address"
+                    required
+                  />
+                </div>
+              </div>
+              <div id="form-notice"></div>
+              <div class="modal-footer">
+                <button
+                  name="suggestion-form"
+                  id="submit"
+                  type="submit"
+                  class="modal-btn select-none font-bold grayscale-0 transition-all"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="mt-6 overflow-x-hidden max-md:mt-20">
+      <section class="py-8 md:py-20" id="abstract">
+        <div class="container">
+          <div class="mb-6 items-center justify-between gap-6 lg:mb-0 lg:flex">
+            <div class="mb-8 lg:w-3/5 xl:mb-0">
+              <img
+                class="mb-4 w-20 md:w-24"
+                src="/dist/img/products/word-token.png"
+              />
+              <h1 class="font-display text-2xl dark:text-white">WORD Token</h1>
+              <p class="mb-4 text-lg leading-normal dark:text-jacarta-100">
+                Brings back Word's value!
+              </p>
+              <p class="mb-2 text-lg">
+                Netword creates a powerful human network based on the currency
+                of words, where payments are synchronized using the WORD Token.
+                The community comprises a vast volume of humans, including all
+                those who require translation, who are proficient in another
+                language, artists, and art enthusiasts.
+              </p>
+            </div>
+            <div
+              class="mb-8 flex justify-center lg:justify-end lg:w-2/5 xl:mb-0"
+            >
+              <video
+                class="translate-x-0 translate-y-0 translate-z-0 mix-blend-screen w-[300px]"
+                loop
+                muted
+                autoplay
+                playsinline
+                aria-label="Video"
+                x-webkit-airplay="allow"
+                preload="none"
+              >
+                <source src="/dist/img/video/token.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+          <div class="mt-8">
+            <button
+              class="mb-4 text-base inline-block rounded-full bg-jacarta-base py-3 px-5 text-center font-semibold text-white select-none hover:opacity-90"
+            >
+              Seed Invest
+            </button>
+            <p class="font-bold text-base">
+              * Seed investment has not started yet. If you are interested,
+              <a
+                href="#waitlist"
+                class="text-accent hover:underline cursor-pointer"
+                >Join the Waitlist</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="protocol">
+        <div class="container">
+          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
+            $WORD Protocol
+          </h2>
+          <div class="mb-6 justify-between gap-6 lg:mb-0 lg:flex">
+            <div class="mb-2 lg:w-2/5 xl:mb-0">
+              <p class="mb-2 text-md">
+                $WORD is a multi-chain utility token based on Binance Smart
+                Chain and Ethereum (Wrapped) that empowers ecosystem for
+                decentralized and unified payments.
+              </p>
+              <p class="mb-2 text-md">
+                As the open-source protocol layer of the ecosystem, $WORD serves
+                several purposes:
+              </p>
+            </div>
+            <div class="lg:w-3/5">
+              <table class="mt-lg mx-auto w-full table-fixed">
+                <tbody>
+                  <tr class="flex border-b border-jacarta-700 py-2">
+                    <td
+                      class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm last-of-type:pr-0 max-md:max-w-[90px]"
+                    >
+                      Access
+                    </td>
+                    <td
+                      class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                    >
+                      Netword provides access to certain parts of the ecosystem
+                      that are otherwise unavailable, such as exclusive NFTs,
+                      events, and services.
+                    </td>
+                  </tr>
+                  <tr class="flex border-b border-jacarta-700 py-2">
+                    <td
+                      class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm last-of-type:pr-0 max-md:max-w-[90px]"
+                    >
+                      Payment unification
+                    </td>
+                    <td
+                      class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                    >
+                      The ecosystem's utility token is a valuable asset that
+                      benefits all participants by providing them with a common
+                      and accessible currency that can be used without the need
+                      for intermediaries.
+                    </td>
+                  </tr>
+                  <tr class="flex py-2">
+                    <td
+                      class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm last-of-type:pr-0 max-md:max-w-[90px]"
+                    >
+                      Reward
+                    </td>
+                    <td
+                      class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                    >
+                      By token stacking, individuals have the potential to
+                      receive complimentary services or avoid paying service
+                      fees (gas is not covered).
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="allocation">
+        <div class="container">
+          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
+            $WORD Allocation
+          </h2>
+          <p class="mb-2 text-md">
+            The total supply of WORD Token is fixed at
+            <span class="font-semibold">21 billion</span>. No minting capability
+            is exposed through the contract and the total supply cannot be
+            increased. Similarly, the contract does not support token burning,
+            so the total supply will never decrease.
+          </p>
+          <p class="mb-6 text-base">
+            * To see how amounts are calculated,
+            <a class="underline hover:text-accent" href="#"
+              >Download Formulated Excel File</a
+            >.
+          </p>
+          <p class="text-lg font-bold" id="subtitle">Detailed View</p>
+          <button
+            class="mb-4 text-base underline hover:text-accent"
+            id="toggleCharts"
+          >
+            Toggle Charts
+          </button>
+          <div id="chart">
+            <div class="">
+              <div class="mb-6 justify-between gap-6 lg:mb-0 lg:flex">
+                <div class="mb-2 lg:w-2/5 xl:mb-0">
+                  <p class="mb-4">
+                    $WORD tokens are distributed through various channels (CEX,
+                    DEX, dApp) and invested in the following eight categories:
+                  </p>
+                  <div id="token-allocation"></div>
+                </div>
+                <div class="lg:w-3/5">
+                  <div class="accordion mx-auto" id="allocation-detail">
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-1">
+                        <button
+                          class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#a-detail-1"
+                          aria-expanded="true"
+                          aria-controls="a-detail-1"
+                        >
+                          <span>Seed Invest</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="a-detail-1"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="a-btn-1"
+                        data-bs-parent="#allocation-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">3%</div>
+                                  <div class="after:text-[11px]">
+                                    630,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i>
+                                  </div>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  252,000,000 (40%) will be unlocked at ICO,<br />
+                                  378,000,000 (60%) will be unlocked next 2
+                                  months.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-7">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#a-detail-7"
+                          aria-expanded="true"
+                          aria-controls="a-detail-7"
+                        >
+                          <span>Advisors & Legal</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="a-detail-7"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="a-btn-7"
+                        data-bs-parent="#allocation-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">5%</div>
+                                  <span class="after:text-[11px]"
+                                    >1,050,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  52,500,000(5%) will be unlocked every month
+                                  after ICO.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-2">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#a-detail-2"
+                          aria-expanded="true"
+                          aria-controls="a-detail-2"
+                        >
+                          <span>Private Sale</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="a-detail-2"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="a-btn-2"
+                        data-bs-parent="#allocation-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">7%</div>
+                                  <span class="after:text-[11px]"
+                                    >1,470,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  73,500,000(5%) will be unlocked every month
+                                  after ICO.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-3">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#a-detail-3"
+                          aria-expanded="true"
+                          aria-controls="a-detail-3"
+                        >
+                          <span>Reserve</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="a-detail-3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="a-btn-3"
+                        data-bs-parent="#allocation-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">10%</div>
+                                  <span class="after:text-[11px]"
+                                    >2,100,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  Initial locked for 28 months after ICO<br />105,000,000(5%)
+                                  will be unlocked monthly until 20 months.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-8">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#a-detail-8"
+                          aria-expanded="true"
+                          aria-controls="a-detail-8"
+                        >
+                          <span>NFT (Ethereum Wrapped)</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="a-detail-8"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="a-btn-8"
+                        data-bs-parent="#allocation-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">10%</div>
+                                  <span class="after:text-[11px]"
+                                    >2,100,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  Initial locked for 12 months after ICO,
+                                  Then<br />105,000,000(5%) will be unlocked
+                                  every month until 20 months.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-5">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#a-detail-5"
+                          aria-expanded="true"
+                          aria-controls="a-detail-5"
+                        >
+                          <span>Marketing & Community</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="a-detail-5"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="a-btn-5"
+                        data-bs-parent="#allocation-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">15%</div>
+                                  <span class="after:text-[11px]"
+                                    >3,150,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  78,750,000(2.5%) will be unlocked monthly
+                                  until 40 months after ICO.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-6">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#a-detail-6"
+                          aria-expanded="true"
+                          aria-controls="a-detail-6"
+                        >
+                          <span>Founders team</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="a-detail-6"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="a-btn-6"
+                        data-bs-parent="#allocation-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">15%</div>
+                                  <span class="after:text-[11px]"
+                                    >3,150,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  Initial locked for 5 months, Then<br />126,000,000(4%)
+                                  will be unlocked monthly until 25 months.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-4">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#a-detail-4"
+                          aria-expanded="true"
+                          aria-controls="a-detail-4"
+                        >
+                          <span>Ecosystem (dApp)</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="a-detail-4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="a-btn-4"
+                        data-bs-parent="#allocation-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">35%</div>
+                                  <span class="after:text-[11px]"
+                                    >7,350,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  Initial locked for 8 months after ICO, Then<br />183,750,000(2.5%)
+                                  will be unlocked monthly until 40 months.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hidden">
+              <div class="mb-6 justify-between gap-6 lg:mb-0 lg:flex">
+                <div class="mb-2 lg:w-2/5 xl:mb-0">
+                  <p class="mb-4">
+                    If you're interested to know how $WORD tokens become
+                    available, they generally fall into the following
+                    categories:
+                  </p>
+                  <div id="publicsale-allocation"></div>
+                </div>
+                <div class="lg:w-3/5">
+                  <div class="accordion mx-auto" id="publicsale-detail">
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="a-btn-1">
+                        <button
+                          class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#p-detail-1"
+                          aria-expanded="true"
+                          aria-controls="p-detail-1"
+                        >
+                          <span>Reserve</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="p-detail-1"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="p-btn-1"
+                        data-bs-parent="#publicsale-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">10%</div>
+                                  <div class="after:text-[11px]">
+                                    2,100,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i>
+                                  </div>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  252,000,000 (40%) will be unlocked at ICO,<br />
+                                  378,000,000 (60%) will be unlocked 2 months
+                                  after ICO.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="p-btn-2">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#p-detail-2"
+                          aria-expanded="false"
+                          aria-controls="p-detail-2"
+                        >
+                          <span>Private Sale</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="p-detail-2"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="p-btn-2"
+                        data-bs-parent="#publicsale-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">10%</div>
+                                  <span class="after:text-[11px]"
+                                    >2,100,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  147,000,000 (10%) will be unlocked every month
+                                  After 2 Month from ICO.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="p-btn-3">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#p-detail-3"
+                          aria-expanded="true"
+                          aria-controls="p-detail-3"
+                        >
+                          <span>Ecosystem</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="p-detail-3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="p-btn-3"
+                        data-bs-parent="#publicsale-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">35%</div>
+                                  <span class="after:text-[11px]"
+                                    >7,350,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  1,890,000,000 (30%) unlocked at the beginning
+                                  in DEX<br />4,410,000,000 (70%) will be
+                                  unlocked in CEX (depending on taking time to
+                                  listing token).
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                    >
+                      <h2 class="accordion-header" id="p-btn-4">
+                        <button
+                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#p-detail-4"
+                          aria-expanded="true"
+                          aria-controls="p-detail-4"
+                        >
+                          <span>Public Sale</span>
+                          <i
+                            class="accordion-arrow icon-down transition-transform"
+                          ></i>
+                        </button>
+                      </h2>
+                      <div
+                        id="p-detail-4"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="p-btn-4"
+                        data-bs-parent="#publicsale-detail"
+                      >
+                        <div
+                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                        >
+                          <table class="mx-auto w-full table-fixed">
+                            <tbody>
+                              <tr class="flex">
+                                <td
+                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
+                                >
+                                  <div class="text-xl">45%</div>
+                                  <span class="after:text-[11px]"
+                                    >9,450,000,000<i
+                                      class="icon-currency text-[12px] align-top ml-2"
+                                    ></i
+                                  ></span>
+                                </td>
+                                <td
+                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
+                                >
+                                  420,000,000 (10%) unlocked on translation dApp
+                                  stable released, then unlock every month until
+                                  48 months.
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="vesting">
+        <div class="container">
+          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
+            $WORD Vesting
+          </h2>
+          <p class="text-lg font-bold" id="subtitle">Detailed View</p>
+          <button
+            class="text-base underline hover:text-accent"
+            id="toggleCharts"
+          >
+            Toggle Charts
+          </button>
+          <div class="py-4" id="chart">
+            <div class="" id="historical-allocation"></div>
+            <div class="hidden" id="historical-publicsale"></div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="use-cases">
+        <div class="container" id="usecases">
+          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
+            $WORD Use Cases
+          </h2>
+          <p class="mb-4 text-md">
+            To use Netword products and services, purchase exclusive NFTs,
+            receive rewards and payments, etc., you should use the $WORD. Below
+            you can see usage in the diagram or explained.
+          </p>
+          <div class="accordion mx-auto">
+            <div
+              class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+            >
+              <h2 class="accordion-header" id="u-btn-1">
+                <button
+                  class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#u-detail-1"
+                  aria-expanded="false"
+                  aria-controls="u-detail-1"
+                >
+                  <span>Token Usage Diagram</span>
+                  <i class="accordion-arrow icon-down transition-transform"></i>
+                </button>
+              </h2>
+              <div
+                id="u-detail-1"
+                class="accordion-collapse collapse"
+                aria-labelledby="u-btn-1"
+                data-bs-parent="#usecases"
+              >
+                <div class="accordion-body px-2 py-4">
+                  <div class="md:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 1139.05 812.78"
+                      font-size="17"
+                      font-weight="500"
+                    >
+                      <path
+                        fill="#0038ff"
+                        d="m618.91 485.01 74.22 70.37 2.06-2.18-74.22-70.37-2.06 2.18Zm69.59 73.09c-.57.6-.24 1.72.57 1.92l12.95 3.1c.81.19 1.61-.66 1.38-1.45l-3.79-12.77c-.24-.79-1.38-1.07-1.94-.47l-9.16 9.67Zm-62.88-77.98c.57-.6.24-1.72-.57-1.92l-12.95-3.1c-.81-.19-1.61.66-1.38 1.45l3.79 12.77c.24.79 1.38 1.07 1.94.47l9.16-9.67Zm-114.66 2.98-71.91 70.88 2.11 2.14 71.91-70.88-2.11-2.14Zm-74.47 66.16c-.58-.59-1.72-.29-1.94.5l-3.54 12.84c-.22.8.6 1.63 1.4 1.42l12.89-3.35c.8-.21 1.11-1.34.53-1.93l-9.35-9.49Zm79.13-59.29c.58.59 1.72.29 1.94-.5l3.54-12.84c.22-.8-.6-1.63-1.4-1.42l-12.89 3.35c-.8.21-1.11 1.34-.53 1.93l9.35 9.49Zm.96-111.87-78.87-83.95-2.19 2.05 78.87 83.95 2.19-2.05Zm-74.08-86.39c.6-.57.34-1.71-.46-1.95l-12.75-3.85c-.79-.24-1.65.56-1.46 1.37l3.05 12.97c.19.81 1.31 1.14 1.91.58l9.71-9.12Zm67.11 90.88c-.6.57-.34 1.71.46 1.95l12.75 3.85c.79.24 1.65-.56 1.46-1.37l-3.05-12.97c-.19-.81-1.31-1.14-1.91-.58l-9.71 9.12Zm107.33-2.25 82.39-85.28-2.16-2.08-82.39 85.28 2.16 2.08ZM702 299.72c.6.58 1.72.25 1.92-.55l3.23-12.92c.2-.8-.64-1.62-1.44-1.39l-12.81 3.67c-.8.23-1.08 1.36-.48 1.94l9.58 9.26Zm-89.89 73.87c-.6-.58-1.72-.25-1.92.55l-3.23 12.92c-.2.8.64 1.62 1.44 1.39l12.81-3.67c.8-.23 1.08-1.36.48-1.94l-9.58-9.26Zm-226.56-73.66v249.91h3V299.93h-3Zm-5.16 248.41c-.83 0-1.41 1.01-1 1.73l6.66 11.54c.41.72 1.59.72 2 0l6.66-11.54c.41-.72-.17-1.73-1-1.73h-13.32Zm13.32-246.91c.83 0 1.41-1.01 1-1.73l-6.66-11.54c-.41-.72-1.59-.72-2 0l-6.66 11.54c-.41.72.17 1.73 1 1.73h13.32Zm353.84-2.5v249.91h3V298.93h-3Zm-5.16 248.41c-.83 0-1.41 1.01-1 1.73l6.66 11.54c.41.72 1.59.72 2 0l6.66-11.54c.41-.72-.17-1.73-1-1.73h-13.32Zm13.32-246.91c.83 0 1.41-1.01 1-1.73l-6.66-11.54c-.41-.72-1.59-.72-2 0l-6.66 11.54c-.41.72.17 1.73 1 1.73h13.32Z"
+                      />
+                      <path
+                        fill="#0b1532"
+                        d="M460 0h222v165.33H460zM224 0h222v165.33H224zm233.21 684.78h222v128h-222zm241 0h222v128h-222zm-478 0h222v128h-222zM696 0h224v165.43H696zm221.05 171.43h222v141.33h-222zm0 186h222v141.33h-222zm0 185.91h222v128h-222zM0 171.56h222v128H0zm0 136h222v213.33H0zm0 221.91h222V670.8H0z"
+                      />
+                      <path
+                        fill="#0038ff"
+                        d="m532.57 243.75 63-.64-.03-3-63 .64.03 3Zm61.55 4.53c0 .83 1.03 1.4 1.74.98l11.47-6.78c.71-.42.7-1.59-.02-2l-11.6-6.54c-.72-.41-1.73.19-1.72 1.02l.14 13.32Zm-60.14-12.71c0-.83-1.03-1.4-1.74-.98l-11.47 6.78c-.71.42-.7 1.59.02 2l11.6 6.54c.72.41 1.73-.19 1.72-1.02l-.14-13.32Z"
+                      />
+                      <path
+                        fill="#b3b3b3"
+                        d="M917.05 426.38h-168v3h168v-3Zm-176 1.5a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm168 0a8 8 0 1 0 16 0 8 8 0 0 0-16 0ZM440.17 163.34l31.8 167.85 2.95-.56-31.8-167.85-2.95.56Zm25.28 167.37a8 8 0 1 0 16 .4 8 8 0 0 0-16-.4Zm-31.8-167.85a8 8 0 1 0 16 .4 8 8 0 0 0-16-.4Zm8.13 519.97 33.79-160.94-2.94-.62-33.79 160.94 2.94.62Zm24.32-161.04a8 8 0 1 0 16-.43 8 8 0 0 0-16 .43Zm-33.79 160.94a8 8 0 1 0 16-.43 8 8 0 0 0-16 .43Zm268.2.35-38-158-2.92.7 38 158 2.92-.7Zm-47.46-157.65a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm38 158a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm6.73-516.3-32 160 2.94.59 32-160-2.94-.59Zm-38.53 160.29a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm32-160a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm-469.24 75.51 23.5.64.08-3-23.5-.64-.08 3Zm22.01.59 13.1 6.52c.71.43 1.74-.12 1.76-.95l.36-13.32c.02-.83-.98-1.44-1.7-1.05l-13.43 5.8-.08 3Zm-29.96-2.09a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm702.99-1.5h-18.5v3h18.5v-3Zm-17 0-13.27-6.16c-.72-.41-1.73.17-1.73 1v13.32c0 .83 1.01 1.41 1.73 1l13.27-6.16v-3Zm9 1.5a8 8 0 1 0 16 0 8 8 0 0 0-16 0ZM222 607.5l23.51.85.11-3-23.51-.85-.11 3Zm22.01.79 13.04 6.63c.7.44 1.74-.11 1.77-.94l.48-13.31c.03-.83-.96-1.45-1.69-1.06l-13.48 5.68-.11 3ZM214.05 606a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm703-1.16h-18.5v3h18.5v-3Zm-17 0-13.27-6.16c-.72-.41-1.73.17-1.73 1V613c0 .83 1.01 1.41 1.73 1l13.27-6.16v-3Zm9 1.5a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm-342.5 79.09V485.38h-3v200.05h3Zm0-198.55 6.16-13.27c.41-.72-.17-1.73-1-1.73h-13.32c-.83 0-1.41 1.01-1 1.73l6.16 13.27h3Zm-9.5 198.55a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm6.5-518.67v74.67h3v-74.67h-3Zm-6.5 74.67a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm0-74.67a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm-335 254.62h165v-3h-165v3Zm157-1.5a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm-165 0a8 8 0 1 0 16 0 8 8 0 0 0-16 0Z"
+                      />
+                      <rect
+                        width="256"
+                        height="80"
+                        x="259.05"
+                        y="202.43"
+                        fill="#0038ff"
+                        rx="6"
+                        ry="6"
+                      />
+                      <rect
+                        width="272"
+                        height="80"
+                        x="613.05"
+                        y="201.43"
+                        fill="#0038ff"
+                        rx="6"
+                        ry="6"
+                      />
+                      <rect
+                        width="256"
+                        height="80"
+                        x="259.05"
+                        y="567.34"
+                        fill="#0038ff"
+                        rx="6"
+                        ry="6"
+                      />
+                      <rect
+                        width="272"
+                        height="80"
+                        x="613.05"
+                        y="566.34"
+                        fill="#0038ff"
+                        rx="6"
+                        ry="6"
+                      />
+                      <rect
+                        width="198"
+                        height="80"
+                        x="466.05"
+                        y="391.88"
+                        fill="#ff008a"
+                        rx="6"
+                        ry="6"
+                      />
+                      <path
+                        fill="#fff"
+                        d="M596.01 438.58h2.87c1.33 0 2.43-.25 3.32-.75a4.8 4.8 0 0 0 1.98-2.19c.44-.96.66-2.13.66-3.51s-.22-2.53-.66-3.49a4.65 4.65 0 0 0-1.93-2.17 6.37 6.37 0 0 0-3.2-.74h-3.03v12.85Zm3.02 2.3h-5.65v-17.45h5.83c1.71 0 3.18.35 4.41 1.05a6.86 6.86 0 0 1 2.82 2.99c.66 1.3.99 2.85.99 4.66s-.33 3.38-1 4.69a7.01 7.01 0 0 1-2.86 3.02 9.14 9.14 0 0 1-4.53 1.05ZM586.98 433l4.31 7.88h-3l-4.23-7.88h2.91Zm-8.62 7.88v-17.45h6.22c1.35 0 2.47.23 3.37.7.9.47 1.57 1.11 2.01 1.93.44.82.66 1.76.66 2.84s-.22 2.01-.67 2.82a4.48 4.48 0 0 1-2.01 1.88c-.89.45-2.01.67-3.37.67h-4.71V432h4.47c.85 0 1.55-.12 2.08-.37.54-.24.93-.6 1.18-1.07.25-.47.38-1.03.38-1.68s-.13-1.23-.38-1.71a2.5 2.5 0 0 0-1.18-1.11 4.85 4.85 0 0 0-2.11-.39h-3.31v15.2h-2.63Zm-5.44-8.73c0-1.42-.23-2.62-.69-3.59a4.82 4.82 0 0 0-4.56-2.98 4.86 4.86 0 0 0-4.57 2.98c-.45.97-.68 2.17-.68 3.59s.23 2.62.68 3.6a5.23 5.23 0 0 0 1.88 2.22c.79.5 1.69.75 2.69.75s1.89-.25 2.68-.75a5.1 5.1 0 0 0 1.88-2.22c.46-.98.69-2.18.69-3.6Zm2.61 0c0 1.86-.34 3.47-1.02 4.81a7.57 7.57 0 0 1-2.8 3.09c-1.18.72-2.53 1.07-4.03 1.07s-2.86-.36-4.05-1.07a7.58 7.58 0 0 1-2.8-3.09c-.68-1.34-1.02-2.94-1.02-4.8s.34-3.46 1.02-4.8a7.44 7.44 0 0 1 2.8-3.09c1.19-.72 2.54-1.08 4.05-1.08s2.85.36 4.03 1.08a7.38 7.38 0 0 1 2.8 3.09 10.46 10.46 0 0 1 1.02 4.8Zm-33.88 8.73-4.84-17.45h2.77l3.4 13.52h.16l3.54-13.52h2.74l3.54 13.53h.16l3.39-13.53h2.78l-4.85 17.45h-2.65l-3.67-13.07h-.14l-3.67 13.07h-2.66Zm-8.89-12.87a2.52 2.52 0 0 0-1.12-1.88 4.32 4.32 0 0 0-2.49-.67c-.72 0-1.34.11-1.86.34-.52.22-.93.53-1.22.92a2.22 2.22 0 0 0-.14 2.39c.2.3.46.55.78.76.32.2.67.37 1.04.5s.72.24 1.07.32l1.7.44c.56.14 1.13.32 1.71.55.59.23 1.13.54 1.63.92s.9.85 1.21 1.41c.31.56.47 1.24.47 2.02 0 .99-.26 1.87-.77 2.63a5.16 5.16 0 0 1-2.21 1.82c-.96.44-2.12.66-3.49.66s-2.44-.21-3.39-.62c-.95-.41-1.7-1-2.24-1.76a5.07 5.07 0 0 1-.89-2.73h2.64c.05.63.26 1.16.61 1.58.36.41.83.72 1.39.93.57.2 1.19.3 1.87.3.74 0 1.41-.12 1.99-.35a3.28 3.28 0 0 0 1.38-.99c.34-.43.5-.92.5-1.49 0-.52-.15-.94-.44-1.27a3.3 3.3 0 0 0-1.18-.82 10.3 10.3 0 0 0-1.68-.57l-2.06-.56a7.92 7.92 0 0 1-3.32-1.68 3.79 3.79 0 0 1-1.22-2.93c0-1.01.27-1.88.82-2.63a5.41 5.41 0 0 1 2.22-1.75c.93-.42 1.98-.63 3.15-.63s2.22.21 3.13.62c.91.41 1.62.99 2.15 1.71.52.72.8 1.55.82 2.49h-2.54Zm-4.37 15.05v-21.82h1.4v21.82h-1.4Z"
+                      />
+                      <text fill="#fff" transform="translate(475.78 26.22)">
+                        <tspan x="0" y="0">Connect NFT Word to</tspan>
+                        <tspan x="0" y="19.92">your profile picture and</tspan>
+                        <tspan x="0" y="39.83">be promoted</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(241.6 26.22)">
+                        <tspan x="0" y="0">Pay/Get WORD tokens</tspan>
+                        <tspan x="0" y="19.92">by transactions for NFT</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(232.99 711.37)">
+                        <tspan x="0" y="0">Pay for gas with $WORD</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(476.41 715.3)">
+                        <tspan x="0" y="0">Trade tokens</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(716.89 715.31)">
+                        <tspan x="0" y="0">Share GPU resources to</tspan>
+                        <tspan x="0" y="19.92">earn $WORD</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(476.41 741.04)">
+                        <tspan x="0" y="0">Staking tokens</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(476.41 766.77)">
+                        <tspan x="0" y="0">Earning reward</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(476.41 792.5)">
+                        <tspan x="0" y="0">Bridge multichain</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(232.99 735.12)">
+                        <tspan x="0" y="0">Receive engagement</tspan>
+                        <tspan x="0" y="19.92">rewards</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(232.99 779.41)">
+                        <tspan x="0" y="0">Receive engagement</tspan>
+                        <tspan x="0" y="19.92">rewards</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(711.29 26.22)">
+                        <tspan x="0" y="0">Pay tokens to using</tspan>
+                        <tspan x="0" y="19.92">products</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(711.29 76.14)">
+                        <tspan x="0" y="0">Get paid by doing</tspan>
+                        <tspan x="0" y="19.92">proofreading</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(933.52 569.27)">
+                        <tspan x="0" y="0">Netword trained to make</tspan>
+                        <tspan x="0" y="19.92">more powerful and</tspan>
+                        <tspan x="0" y="39.83">customized AI</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(933.52 384.04)">
+                        <tspan x="0" y="0">Learn from translation</tspan>
+                        <tspan x="0" y="19.92">history, editing and</tspan>
+                        <tspan x="0" y="39.83">proofreading being more</tspan>
+                        <tspan x="0" y="59.74">trustable over time</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(933.52 200.04)">
+                        <tspan xml:space="preserve" x="0" y="0">
+                          Over seven type of
+                        </tspan>
+                        <tspan x="0" y="19.92">AI-powered translation</tspan>
+                        <tspan x="0" y="39.83">products</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(933.52 274.63)">
+                        <tspan x="0" y="0">Human Proofreading</tspan>
+                        <tspan x="0" y="19.92">Services</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(12.24 200.89)">
+                        <tspan x="0" y="0">Buy/Sell Exclusive NFT</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.33 335.85)">
+                        <tspan x="0" y="0">NFT owner is the web</tspan>
+                        <tspan x="172.61" y="0">3</tspan>
+                        <tspan x="183.31" y="0"></tspan>
+                        <tspan x="0" y="19.91">club owner</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.33 387.19)">
+                        <tspan x="0" y="0">Club owners can</tspan>
+                        <tspan x="0" y="19.91">increase their NFT value</tspan>
+                        <tspan x="0" y="39.83">by working on their</tspan>
+                        <tspan x="0" y="59.74">engagement</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.33 478.09)">
+                        <tspan x="0" y="0">People can buy/sell club</tspan>
+                        <tspan x="0" y="19.91">easily</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.3 562.52)">
+                        <tspan x="0" y="0">Increase your NFT value</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.3 589.83)">
+                        <tspan x="0" y="0">Get token reward by</tspan>
+                        <tspan x="0" y="19.92">increase engagement</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.3 638.7)">
+                        <tspan x="0" y="0">Buy/Sell Slogan</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(711.29 126.05)">
+                        <tspan x="0" y="0">Staking tokens to get</tspan>
+                        <tspan x="0" y="19.92">free credits</tspan>
+                      </text>
+                      <text
+                        fill="#fff"
+                        font-size="24"
+                        transform="translate(283.81 248.87)"
+                      >
+                        <tspan x="0" y="0">NFT Marketplace</tspan>
+                      </text>
+                      <text
+                        fill="#fff"
+                        font-size="24"
+                        transform="translate(687.89 248.87)"
+                      >
+                        <tspan x="0" y="0">Products</tspan>
+                      </text>
+                      <text
+                        fill="#fff"
+                        font-size="24"
+                        transform="translate(666 615.5)"
+                      >
+                        <tspan x="0" y="0">GPU Sharing</tspan>
+                      </text>
+                      <text
+                        fill="#fff"
+                        font-size="24"
+                        transform="translate(319.06 615.23)"
+                      >
+                        <tspan x="0" y="0">WEB</tspan>
+                        <tspan x="55.58" y="0">3</tspan>
+                        <tspan xml:space="preserve" x="71.59" y="0">Club</tspan>
+                      </text>
+                    </svg>
+                  </div>
+                  <div class="hidden md:block">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 1614 812"
+                      font-size="17"
+                      font-weight="500"
+                    >
+                      <path fill="#0b1532" d="M0 176h222v128H0z" />
+                      <rect
+                        width="256"
+                        height="80"
+                        x="259"
+                        y="201"
+                        fill="#0038ff"
+                        rx="6"
+                        ry="6"
+                      />
+                      <rect
+                        width="272"
+                        height="80"
+                        x="1088"
+                        y="200"
+                        fill="#0038ff"
+                        rx="6"
+                        ry="6"
+                      />
+                      <rect
+                        width="256"
+                        height="80"
+                        x="259"
+                        y="565.91"
+                        fill="#0038ff"
+                        rx="6"
+                        ry="6"
+                      />
+                      <rect
+                        width="272"
+                        height="80"
+                        x="1088"
+                        y="564.91"
+                        fill="#0038ff"
+                        rx="6"
+                        ry="6"
+                      />
+                      <rect
+                        width="198"
+                        height="80"
+                        x="701"
+                        y="390.45"
+                        fill="#ff008a"
+                        rx="6"
+                        ry="6"
+                      />
+                      <path
+                        fill="#fff"
+                        d="M788.07 435.53h-.16L784.37 422h-2.74l-3.54 13.52h-.16l-3.4-13.52h-2.77l4.84 17.45h2.66l3.67-13.07h.14l3.67 13.07h2.65l4.85-17.45h-2.78l-3.39 13.53zm-19.26-4.33a6.71 6.71 0 0 0-1.63-.92c-.59-.23-1.16-.42-1.71-.55l-.73-.19v-5.46a4 4 0 0 1 1.85.64 2.48 2.48 0 0 1 1.12 1.88h2.54a4.31 4.31 0 0 0-.82-2.49 5.19 5.19 0 0 0-2.15-1.71 7.23 7.23 0 0 0-2.55-.6v-1.97h-1.4v1.98c-.85.08-1.63.27-2.34.59a5.4 5.4 0 0 0-2.22 1.75 4.33 4.33 0 0 0-.82 2.63c0 1.22.41 2.19 1.22 2.93.82.74 1.93 1.3 3.32 1.68l.83.23v5.77a5.03 5.03 0 0 1-1.19-.25 3.22 3.22 0 0 1-1.39-.93 2.69 2.69 0 0 1-.61-1.58h-2.64c.06 1.05.36 1.96.89 2.73a5.21 5.21 0 0 0 2.24 1.76c.78.34 1.69.53 2.7.59v1.92h1.4v-1.92a7.95 7.95 0 0 0 2.78-.63 5.09 5.09 0 0 0 2.21-1.82c.51-.77.77-1.64.77-2.63a4.13 4.13 0 0 0-1.68-3.43Zm-6.11-2.24c-.37-.14-.72-.3-1.04-.5-.32-.2-.58-.46-.78-.76-.19-.3-.29-.66-.29-1.07 0-.49.14-.93.43-1.32s.7-.7 1.22-.92c.32-.14.7-.22 1.1-.28v5.05l-.64-.19Zm4.68 7.14c-.34.42-.8.75-1.38.99-.38.15-.81.24-1.26.29V432c.56.15 1.07.33 1.52.52.5.22.89.49 1.18.82.3.33.44.75.44 1.27 0 .57-.17 1.07-.5 1.49Zm74-10.06a6.86 6.86 0 0 0-2.82-2.99 8.77 8.77 0 0 0-4.41-1.05h-5.83v17.45h5.65c1.77 0 3.28-.35 4.53-1.05a6.96 6.96 0 0 0 2.86-3.02c.66-1.31 1-2.87 1-4.69s-.33-3.37-.99-4.66Zm-2.26 8.17a4.8 4.8 0 0 1-1.98 2.19c-.88.5-1.99.75-3.32.75h-2.87V424.3h3.03a6.4 6.4 0 0 1 3.2.74 4.6 4.6 0 0 1 1.93 2.17c.44.95.66 2.12.66 3.49s-.22 2.55-.66 3.51Zm-16.23-2.03a4.53 4.53 0 0 0 2.01-1.88c.45-.81.67-1.75.67-2.82s-.22-2.02-.66-2.84a4.58 4.58 0 0 0-2.01-1.93 7.17 7.17 0 0 0-3.37-.7h-6.22v17.45h2.63v-6.61h3.75l3.55 6.61h3l-3.87-7.06c.18-.07.36-.13.52-.21Zm-6.95-7.92h3.31c.87 0 1.57.13 2.11.39.54.26.93.62 1.18 1.11.26.48.38 1.05.38 1.71s-.12 1.21-.38 1.68c-.25.47-.64.82-1.18 1.07a5.1 5.1 0 0 1-2.08.37h-3.34v-6.32Zm-9.28-1.42c-1.18-.72-2.53-1.08-4.03-1.08s-2.86.36-4.05 1.08a7.52 7.52 0 0 0-2.8 3.09c-.68 1.34-1.02 2.93-1.02 4.8s.34 3.46 1.02 4.8a7.44 7.44 0 0 0 2.8 3.09c1.19.72 2.54 1.07 4.05 1.07s2.85-.36 4.03-1.07a7.44 7.44 0 0 0 2.8-3.09c.68-1.34 1.02-2.94 1.02-4.81s-.34-3.46-1.02-4.8a7.51 7.51 0 0 0-2.8-3.09Zm.53 11.48a4.9 4.9 0 0 1-4.56 2.97c-1 0-1.9-.25-2.69-.75a5.24 5.24 0 0 1-1.88-2.22c-.45-.98-.68-2.18-.68-3.6s.23-2.62.68-3.59a4.86 4.86 0 0 1 4.57-2.98 4.82 4.82 0 0 1 4.56 2.98c.46.97.69 2.17.69 3.59s-.23 2.62-.69 3.6Z"
+                      />
+                      <path
+                        fill="#0038ff"
+                        d="m1084.73 600.1-3.24-12.92c-.2-.8-1.33-1.12-1.92-.55l-3.71 3.59-154.6-159.59c-.1-.1-.22-.18-.33-.28.16-.16.31-.33.45-.51l146.6-187.38c.27-.34.63-.6 1.02-.76v4.96c0 .1.02.2.04.3.06.19.17.36.31.49.36.34.92.47 1.37.21l11.54-6.66c.72-.41.72-1.59 0-2l-11.54-6.66c-.72-.41-1.73.17-1.73 1v5.16h-1v.36-.36l-533 1h-.65v-3.47c0-.31-.14-.58-.35-.78v-.91c0-.83-1.01-1.41-1.73-1L520.72 240c-.72.41-.72 1.59 0 2h.02c-.35.54-.25 1.36.33 1.69l11.54 6.66c.72.41 1.73-.17 1.73-1v-4.95c.39.17.75.42 1.01.77l143.6 186.34c.12.16.26.31.4.46-.22.17-.44.35-.63.56L526.96 590.44l-3.75-3.49c-.6-.56-1.72-.23-1.92.56l-3.09 12.76c-.19.79.66 1.59 1.45 1.35l12.77-3.74c.79-.23 1.07-1.35.46-1.92l-3.75-3.49 151.76-157.91a2.52 2.52 0 0 1 1.82-.77h3.28l13.27 6.06c.26.15.55.16.83.09.62.02 1.26-.47 1.26-1.13v-13.32c0-.83-1.01-1.41-1.73-1l-13.27 6.16h-3.03a2.5 2.5 0 0 1-1.98-.97l-143.6-186.34a5.8 5.8 0 0 0-.8-.84l527.98-.99L919.02 428c-.47.61-1.2.96-1.97.96H914l-13.27-6.16c-.72-.41-1.73.17-1.73 1v13.32c0 .83 1.01 1.41 1.73 1l13.27-6.16h3.31c.68 0 1.32.27 1.8.76l154.6 159.59-3.71 3.59c-.59.58-.31 1.71.49 1.94l12.81 3.65c.8.23 1.64-.59 1.44-1.39Z"
+                      />
+                      <path
+                        fill="#0b1532"
+                        d="M1392 169h222v141.33h-222zM0 312h222v213.33H0zm1392 43h222v141.33h-222zM0 533.91h222v141.33H0zM689 684h222v128H689zm0-684h222v165.33H689zm703 540.91h222v128h-222zM932 684h222v128H932zm0-684h224v165.43H932zM446 684h222v128H446zm0-684h222v165.33H446z"
+                      />
+                      <path
+                        fill="#b3b3b3"
+                        d="m221.96 241.5 23.5.64.08-3-23.5-.64-.08 3Zm22.01.59 13.1 6.52c.71.43 1.74-.12 1.76-.95l.36-13.32c.02-.83-.98-1.44-1.7-1.05l-13.43 5.8-.08 3ZM214.01 240a8 8 0 1 0 16 0 8 8 0 0 0-16 0ZM1392 238.5h-18.5v3h18.5v-3Zm-17 0-13.27-6.16c-.72-.41-1.73.17-1.73 1v13.32c0 .83 1.01 1.41 1.73 1l13.27-6.16v-3Zm9 1.5a8 8 0 1 0 16 0 8 8 0 0 0-16 0ZM221.95 606.07l23.51.85.11-3-23.51-.85-.11 3Zm22.01.79 13.04 6.63c.7.44 1.74-.11 1.77-.94l.48-13.31c.03-.83-.96-1.45-1.69-1.06l-13.48 5.68-.11 3ZM214 604.57a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm828.5-439.15-1 107.28 3 .03 1-107.28-3-.03Zm-7.5 107.3a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm1-107.28a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm8.5 518.56V557h-3v127h3Zm-9.5-127a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm0 127a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm-476.5 0V560h-3v124h3ZM549 560a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm0 124a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm843-80.59h-18.5v3h18.5v-3Zm-17 0-13.27-6.16c-.72-.41-1.73.17-1.73 1v13.32c0 .83 1.01 1.41 1.73 1l13.27-6.16v-3Zm9 1.5a8 8 0 1 0 16 0 8 8 0 0 0-16 0ZM801.5 684V483.95h-3V684h3Zm0-198.55 6.16-13.27c.41-.72-.17-1.73-1-1.73h-13.32c-.83 0-1.41 1.01-1 1.73l6.16 13.27h3ZM792 684a8 8 0 1 0 16 0 8 8 0 0 0-16 0Z"
+                      />
+                      <path
+                        fill="#0038ff"
+                        d="M393.66 546.91h-5.16V300h5.16c.83 0 1.41-1.01 1-1.73L388 286.73c-.41-.72-1.59-.72-2 0l-6.66 11.54c-.41.72.17 1.73 1 1.73h5.16v246.91h-5.16c-.83 0-1.41 1.01-1 1.73l6.66 11.54c.41.72 1.59.72 2 0l6.66-11.54c.41-.72-.17-1.73-1-1.73ZM1222.5 297.5v249.91h3V297.5h-3Zm-5.16 248.41c-.83 0-1.41 1.01-1 1.73l6.66 11.54c.41.72 1.59.72 2 0l6.66-11.54c.41-.72-.17-1.73-1-1.73h-13.32ZM1230.66 299c.83 0 1.41-1.01 1-1.73l-6.66-11.54c-.41-.72-1.59-.72-2 0l-6.66 11.54c-.41.72.17 1.73 1 1.73h13.32Z"
+                      />
+                      <path
+                        fill="#b3b3b3"
+                        d="M798.5 165.33V240h3v-74.67h-3ZM792 240a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm0-74.67a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm-236.5 0v106h3v-106h-3Zm-6.5 106a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm0-106a8 8 0 1 0 16 0 8 8 0 0 0-16 0ZM222 419.95h165v-3H222v3Zm157-1.5a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm-165 0a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm1178 6.5h-168v3h168v-3Zm-176 1.5a8 8 0 1 0 16 0 8 8 0 0 0-16 0Zm168 0a8 8 0 1 0 16 0 8 8 0 0 0-16 0Z"
+                      />
+                      <text
+                        fill="#fff"
+                        font-size="16"
+                        transform="translate(12.24 205.33)"
+                      >
+                        <tspan x="0" y="0">Buy/Sell Exclusive NFT</tspan>
+                      </text>
+                      <text
+                        fill="#fff"
+                        font-size="24"
+                        transform="translate(285.26 247.29)"
+                      >
+                        <tspan x="0" y="0">NFT Marketplace</tspan>
+                      </text>
+                      <text
+                        fill="#fff"
+                        font-size="24"
+                        transform="translate(1172.54 247.29)"
+                      >
+                        <tspan x="0" y="0">Products</tspan>
+                      </text>
+                      <text
+                        fill="#fff"
+                        font-size="24"
+                        transform="translate(1150.65 613.92)"
+                      >
+                        <tspan x="0" y="0">GPU Sharing</tspan>
+                      </text>
+                      <text
+                        fill="#fff"
+                        font-size="24"
+                        transform="translate(320.5 613.66)"
+                      >
+                        <tspan x="0" y="0">WEB</tspan>
+                        <tspan x="55.58" y="0">3</tspan>
+                        <tspan xml:space="preserve" x="71.59" y="0">Club</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.33 340.29)">
+                        <tspan x="0" y="0">NFT owner is the web3</tspan>
+                        <tspan x="0" y="19.91">club owner</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.33 391.62)">
+                        <tspan x="0" y="0">Club owners can</tspan>
+                        <tspan x="0" y="19.91">increase their NFT value</tspan>
+                        <tspan x="0" y="39.83">by working on their</tspan>
+                        <tspan x="0" y="59.74">engagement</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.33 482.53)">
+                        <tspan x="0" y="0">People can buy/sell club</tspan>
+                        <tspan x="0" y="19.91">easily</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.3 566.96)">
+                        <tspan x="0" y="0">Increase your NFT value</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(458.79 710.6)">
+                        <tspan x="0" y="0">Pay for gas with $WORD</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(708.2 714.53)">
+                        <tspan x="0" y="0">Trade tokens</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(950.69 714.53)">
+                        <tspan x="0" y="0">Share GPU resources to</tspan>
+                        <tspan x="0" y="19.92">earn $WORD</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(1408.47 566.84)">
+                        <tspan x="0" y="0">Netword trained to make</tspan>
+                        <tspan x="0" y="19.92">more powerful and</tspan>
+                        <tspan x="0" y="39.83">customized AI</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(1408.47 381.61)">
+                        <tspan x="0" y="0">Learn from translation</tspan>
+                        <tspan x="0" y="19.92">history, editing and</tspan>
+                        <tspan x="0" y="39.83">proofreading being more</tspan>
+                        <tspan x="0" y="59.74">trustable over time</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(1408.47 197.61)">
+                        <tspan xml:space="preserve" x="0" y="0">
+                          Over seven type of
+                        </tspan>
+                        <tspan x="0" y="19.92">AI-powered translation</tspan>
+                        <tspan x="0" y="39.83">products</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(947.29 26.22)">
+                        <tspan x="0" y="0">Pay tokens to using</tspan>
+                        <tspan x="0" y="19.92">products</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(704.78 26.22)">
+                        <tspan x="0" y="0">Connect NFT Word to</tspan>
+                        <tspan x="0" y="19.92">your profile picture and</tspan>
+                        <tspan x="0" y="39.83">be promoted</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(463.6 26.22)">
+                        <tspan x="0" y="0">Pay/Get WORD tokens</tspan>
+                        <tspan x="0" y="19.92">by transactions for NFT</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(947.29 76.14)">
+                        <tspan x="0" y="0">Get paid by doing</tspan>
+                        <tspan x="0" y="19.92">proofreading</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(947.29 126.05)">
+                        <tspan x="0" y="0">Staking tokens to get</tspan>
+                        <tspan x="0" y="19.92">free credits</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(1408.47 272.2)">
+                        <tspan x="0" y="0">Human Proofreading</tspan>
+                        <tspan x="0" y="19.92">Services</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(708.2 740.26)">
+                        <tspan x="0" y="0">Staking tokens</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(708.2 765.99)">
+                        <tspan x="0" y="0">Earning reward</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(708.2 791.73)">
+                        <tspan x="0" y="0">Bridge multichain</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(458.79 734.34)">
+                        <tspan x="0" y="0">Receive engagement</tspan>
+                        <tspan x="0" y="19.92">rewards</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(458.79 778.64)">
+                        <tspan x="0" y="0">Receive engagement</tspan>
+                        <tspan x="0" y="19.92">rewards</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.3 594.26)">
+                        <tspan x="0" y="0">Get token reward by</tspan>
+                        <tspan x="0" y="19.92">increase engagement</tspan>
+                      </text>
+                      <text fill="#fff" transform="translate(14.3 643.14)">
+                        <tspan x="0" y="0">Buy/Sell Slogan</tspan>
+                      </text>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-6 justify-between gap-6 lg:mb-0 lg:flex">
+            <div class="mb-2 lg:w-1/2 xl:mb-0">
+              <div class="accordion mx-auto">
+                <div
+                  class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                >
+                  <h2 class="accordion-header" id="u-btn-2">
+                    <button
+                      class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#u-detail-2"
+                      aria-expanded="false"
+                      aria-controls="u-detail-2"
+                    >
+                      <span>Buy Exclusive NFTs</span>
+                      <i
+                        class="accordion-arrow icon-down transition-transform"
+                      ></i>
+                    </button>
+                  </h2>
+                  <div
+                    id="u-detail-2"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="u-btn-2"
+                    data-bs-parent="#usecases"
+                  >
+                    <div
+                      class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                    >
+                      <p class="text-sm">
+                        Exclusive NFTs can only be purchased with $WORD. Of
+                        course, you can buy all NFT Words with $WORD. Note that
+                        you can sell Exclusive or Normal NTFs by receiving $ETH
+                        or $WORD.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                >
+                  <h2 class="accordion-header" id="u-btn-3">
+                    <button
+                      class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#u-detail-3"
+                      aria-expanded="false"
+                      aria-controls="u-detail-3"
+                    >
+                      <span>Translation</span>
+                      <i
+                        class="accordion-arrow icon-down transition-transform"
+                      ></i>
+                    </button>
+                  </h2>
+                  <div
+                    id="u-detail-3"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="u-btn-3"
+                    data-bs-parent="#usecases"
+                  >
+                    <div
+                      class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                    >
+                      <p class="text-sm">
+                        You will pay for your AI translation on various products
+                        by $WORD.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/2">
+              <div class="accordion mx-auto">
+                <div
+                  class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                >
+                  <h2 class="accordion-header" id="u-btn-4">
+                    <button
+                      class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#u-detail-4"
+                      aria-expanded="false"
+                      aria-controls="u-detail-4"
+                    >
+                      <span>Getting Rewards</span>
+                      <i
+                        class="accordion-arrow icon-down transition-transform"
+                      ></i>
+                    </button>
+                  </h2>
+                  <div
+                    id="u-detail-4"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="u-btn-4"
+                    data-bs-parent="#usecases"
+                  >
+                    <div
+                      class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                    >
+                      <p class="text-sm">
+                        About 2 billion $WORDs allocated for reward, including
+                        community, products, and WordClub engagements.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+                >
+                  <h2 class="accordion-header" id="u-btn-5">
+                    <button
+                      class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#u-detail-5"
+                      aria-expanded="false"
+                      aria-controls="u-detail-5"
+                    >
+                      <span>Proofreading Payments</span>
+                      <i
+                        class="accordion-arrow icon-down transition-transform"
+                      ></i>
+                    </button>
+                  </h2>
+                  <div
+                    id="u-detail-5"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="u-btn-5"
+                    data-bs-parent="#usecases"
+                  >
+                    <div
+                      class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
+                    >
+                      <p class="text-sm">
+                        At Proofreaders Pool™ product, you will proofread
+                        machine translations and get paid by $WORD token.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="capabilities">
+        <div class="container">
+          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
+            $WORD Contract Capabilities
+          </h2>
+          <div>
+            <p class="mb-2">Contract Source Code:</p>
+            <div class="accordion mx-auto" id="token-code">
+              <div
+                class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+              >
+                <h2 class="accordion-header" id="code-btn">
+                  <button
+                    class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#code-detail"
+                    aria-expanded="false"
+                    aria-controls="code-detail"
+                  >
+                    <span>WORD Contract Source Code (RC)</span>
+                    <i
+                      class="accordion-arrow icon-down transition-transform"
+                    ></i>
+                  </button>
+                </h2>
+                <div
+                  id="code-detail"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="code-btn"
+                  data-bs-parent="#token-code"
+                >
+                  <div class="accordion-body">
+                    <div
+                      class="m-2 mt-0 rounded-lg bg-white p-4 dark:bg-jacarta-800"
+                    >
+                      It's the release candidate version of the $WORD contract,
+                      and we are developing Netword dApps by it.
+                      <br />
+                      The final contract will be released before the public
+                      sale; until then, all investors interested in improving
+                      the contract can share their opinions.
+                    </div>
+                    <pre
+                      class="language-solidity h-[470px] w-full !text-sm scrollbar-custom"
+                      tabindex="0"
+                    ><code class="language-solidity">// SPDX-License-Identifier: MIT
+/*     
+*  ©©©©            ©©©©        ©©©©©©©©©©©©©©    
+*  ©©©©            ©©©©        ©©©©©©©©©©©©©©    
+*  ©©©©            ©©©©    ©©©©              ©©©©
+*  ©©©©    ©©©©    ©©©©    ©©©©              ©©©©
+*  ©©©©    ©©©©    ©©©©    ©©©©              ©©©©
+*  ©©©©©©©©    ©©©©©©©©    ©©©©              ©©©©
+*  ©©©©©©©©    ©©©©©©©©    ©©©©              ©©©©
+*  ©©©©            ©©©©        ©©©©©©©©©©©©©©
+*  ©©©©            ©©©©        ©©©©©©©©©©©©©©
+*
+*  ©©©©©©©©©©©©©©©©        ©©©©©©©©©©©©©©©©©©
+*  ©©©©©©©©©©©©©©©©        ©©©©©©©©©©©©©©©©©©
+*  ©©©©            ©©©©    ©©©©              ©©©©
+*  ©©©©            ©©©©    ©©©©              ©©©©
+*  ©©©©©©©©©©©©©©©©        ©©©©              ©©©©
+*  ©©©©©©©©©©©©©©©©        ©©©©              ©©©©
+*  ©©©©            ©©©©    ©©©©              ©©©©
+*  ©©©©            ©©©©    ©©©©©©©©©©©©©©©©©©
+*  ©©©©            ©©©©    ©©©©©©©©©©©©©©©©©©
+*/
+
+pragma solidity ^0.8.20;
+
+/**
+* @title Netword
+* @dev The Netword AI Ecosystem Token.
+* @custom:dev-run-script file_path
+*/
+contract Netword {
+    string public constant name = "Netword";
+    string public constant symbol = "WORD";
+    uint8 public constant decimals = 4;
+    uint256 public constant totalSupply = 21 * 10**9 * 10**uint256(decimals);
+
+    // mapping area
+    mapping(address => uint256) public lockTimestamp;
+    mapping(address => uint256) public lockAmount;
+    mapping(address => uint256) public stakingAmount;
+    mapping(address => mapping(address => uint256)) private _allowances; 
+    mapping(address => uint256) private _balances;   
+    mapping(address => bool) private _isOwner;
+
+    // event area
+    event Transfer(address indexed from, address indexed to, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint256 value);
+
+
+    address[] private _owners;
+    modifier onlyOwner() {
+        require(_isOwner[msg.sender], "Netword: Caller is not an owner");
+        _;
+    }
+
+    // constructor
+    constructor() {
+        _balances[msg.sender] = totalSupply;
+        _owners = [msg.sender];
+        _isOwner[msg.sender] = true;
+        emit Transfer(address(0), msg.sender, totalSupply);
+    }
+
+    // functions area
+
+    /**
+     * @dev Returns the amount of tokens owned by `account` (Include stacked amount).
+     */
+    function balanceOf(address account) public view returns (uint256) {
+        uint256 stacked = stakingAmount[account];
+        uint256 balance = _balances[account];
+        return balance + stacked;
+    }
+
+    /**
+    * @dev Moves `amount` tokens from the caller's account to `recipient`.
+    * Returns a boolean value indicating whether the operation succeeded.
+    * Emits a {Transfer} event.
+    */
+    function transfer(address recipient, uint256 amount) public returns (bool) {
+        _transfer(msg.sender, recipient, amount);
+        return true;
+    }
+
+    /**
+    * @dev Returns the remaining number of tokens that `spender` will be
+    * allowed to spend on behalf of `owner` through {transferFrom}. This is
+    * zero by default.
+    * This value changes when {approve} or {transferFrom} are called.
+    */
+    function allowance(address owner, address spender) public view returns (uint256) {
+        return _allowances[owner][spender];
+    }
+
+    /*
+    * @dev Sets `amount` as the allowance of `spender` over the caller's tokens.
+    * Returns a boolean value indicating whether the operation succeeded.
+    * Emits an {Approval} event.
+    */
+    function approve(address _spender, uint256 _value) public returns (bool success) {
+        require(_spender != address(0), "Netword: Cannot approve zero address");
+        _allowances[msg.sender][_spender] = _value;
+        emit Approval(msg.sender, _spender, _value);
+        return true;
+    }
+
+    /**
+    * @dev Moves `amount` tokens from `sender` to `recipient` using the
+    * allowance mechanism. `amount` is then deducted from the caller's allowance.
+    * Returns a boolean value indicating whether the operation succeeded.
+    * Emits a {Transfer} event.
+    */
+    function transferFrom(address _sender, address _recipient, uint256 _value) public returns (bool success) {
+        require(_sender != address(0), "Netword: Cannot transfer from zero address");
+        require(_recipient != address(0), "Netword: Cannot transfer to zero address");
+        require(_balances[_sender] - _value >= stakingAmount[_sender], "Deposited tokens");
+        require(_allowances[_sender][msg.sender] >= _value, "Insufficient allowance");
+
+        _balances[_sender] -= _value;
+        _balances[_recipient] += _value;
+        _allowances[_sender][msg.sender] -= _value;
+
+        emit Transfer(_sender, _recipient, _value);
+        return true;
+    }
+     /**
+     * @dev getOwners.
+     */    
+    function getOweners() public view returns (address[] memory) {
+        return _owners;
+    }
+
+     /**
+     * @dev addOwner.
+     */  
+    function addOwner(address newOwner) public onlyOwner {
+        require(!_isOwner[newOwner], "Network: This address is already an owner");
+        _isOwner[newOwner] = true;
+        _owners.push(newOwner);
+    }
+
+     /**
+     * @dev removeOwner.
+     */  
+    function removeOwner(address ownerToRemove) public onlyOwner {
+        require(_owners.length > 1, "Network: Cannot remove the last owner");
+        require(_isOwner[ownerToRemove], "Network: This address is not an owner");
+
+        // Remove the owner from the owners array
+        for (uint i = 1; i < _owners.length - 1; i++) {
+            if (_owners[i] == ownerToRemove) {
+                _owners[i] = _owners[_owners.length - 1];
+                break;
+            }
+        }
+        _owners.pop();
+        _isOwner[ownerToRemove] = false;
+    }
+
+    /**
+     * @dev Using staking feature on dApp.
+     */
+    function stake(uint256 amount) public returns (bool) { 
+        require(msg.sender != address(0), "Netword: Cannot stake from zero address");
+        _stake(msg.sender, address(0), amount);
+        return true;
+    }
+    
+    function unstake(uint256 amount) public returns (bool) {
+        require(msg.sender != address(0), "Netword: Cannot unstake from zero address");
+        _unstake(address(0), msg.sender, amount);
+        return true;
+    }
+
+    /**
+     * @dev Use timestamp lock to control circulating tokens.
+     * Attention: Be cautious when entering the timestamp. Any owner
+     * cannot change it until the time passed.
+     */
+
+     // Owner can lock `amount` tokens for `timestamp` seconds.
+    function lockTokens(address account, uint256 amount, uint256 timestamp) public onlyOwner {
+        require(account != address(0), "Netword: Invalid account address");
+        require(amount > 0, "Netword: Amount must be greater than zero");
+        require(timestamp > block.timestamp, "Netword: Timestamp must be in the future");
+        
+        lockAmount[account] = lockAmount[account] + amount;
+        lockTimestamp[account] = timestamp;
+
+        _transfer(account, address(this), amount);
+    }
+
+    // Owner can unlock tokens if the unlock timestamp has passed.
+    function unlockTokens(address account) public onlyOwner {
+        require(lockTimestamp[account] <= block.timestamp, "Netword: Tokens are still locked");
+
+        uint256 amountToUnlock = lockAmount[account];
+        lockAmount[account] = 0;
+        lockTimestamp[account] = 0;
+
+        _transfer(address(this), account, amountToUnlock);
+    }
+
+    /**
+     * Contract's internal functions.
+     */
+    function _stake(address _sender, address _recipient, uint256 _amount) internal {
+        _balances[_sender] -= _amount;
+        stakingAmount[_sender] =  stakingAmount[_sender] + _amount;
+        emit Transfer(_sender, _recipient,  _amount);
+      
+    }
+
+    function _unstake(address _sender, address _recipient, uint256 _amount) internal {
+        _balances[_recipient] += _amount;
+        stakingAmount[_recipient] =  stakingAmount[_recipient] - _amount;
+        emit Transfer(_sender, _recipient, _amount);
+        
+    }
+   
+   function _transfer(address _sender, address _recipient, uint256 _amount) internal {
+        require( _balances[_sender]>=_amount, "Netword: The staked amount is not transferable, Unstake your tokens first");
+        _balances[_sender] -= _amount;
+        _balances[_recipient] += _amount;
+        emit Transfer(_sender, _recipient, _amount);
+    }
+}
+
+	</code></pre>
+                    <button
+                      data-bs-toggle="modal"
+                      data-bs-target="#suggest-change"
+                      class="m-4 rounded-sm bg-accent px-4 py-2 text-sm text-white hover:bg-accent-dark"
+                    >
+                      Suggest a change
+                    </button>
+                    <p class="text-sm px-4 pb-3">
+                      <span class="font-bold">Note:</span> We will pay cost for
+                      the approved proposal
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="mt-6 mb-2">Describing Capabilities:</p>
+            <div class="accordion mx-auto" id="token-cap">
+              <div
+                class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+              >
+                <h2 class="accordion-header" id="cap-btn-1">
+                  <button
+                    class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cap-detail-1"
+                    aria-expanded="false"
+                    aria-controls="cap-detail-1"
+                  >
+                    <span>Transfer, TransferFrom, Approval & Allowance</span>
+                    <i
+                      class="accordion-arrow icon-down transition-transform"
+                    ></i>
+                  </button>
+                </h2>
+                <div
+                  id="cap-detail-1"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="cap-btn-1"
+                  data-bs-parent="#token-cap"
+                >
+                  <div class="accordion-body">
+                    <div
+                      class="m-2 mt-0 rounded-lg bg-white p-4 text-base dark:bg-jacarta-800"
+                    >
+                      <p class="mb-4">
+                        These functions transfer tokens between different
+                        addresses, which are widely adopted standards for
+                        fungible tokens on the Ethereum network.
+                      </p>
+                      <p class="mb-3">
+                        <b>Transfer:</b> This function transfers tokens from one
+                        wallet to another. When this function is executed, the
+                        tokens are permanently moved from the sender's wallet to
+                        the recipient's wallet.
+                      </p>
+                      <p class="mb-3">
+                        <b>Approval:</b> This function grants permission to a
+                        third party to transfer tokens on behalf of the token
+                        holder. When executing this function, the token holder
+                        approves a specific address to transfer a certain amount
+                        of tokens.
+                      </p>
+                      <p class="mb-3">
+                        <b>Allowance:</b> This function checks the amount of
+                        tokens that a third-party address is approved to
+                        transfer on behalf of the token holder. It returns the
+                        remaining amount of tokens that the approved address can
+                        still transfer.
+                      </p>
+                      <p>
+                        <b>Transfer From:</b> This function transfers tokens on
+                        the token holder's behalf. To use this function, the
+                        token holder must first approve a specific address to
+                        transfer a certain amount of tokens through the approve
+                        function. Once approved, the approved address can call
+                        transferFrom to transfer tokens from the token holder's
+                        address to another address.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+              >
+                <h2 class="accordion-header" id="cap-btn-2">
+                  <button
+                    class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cap-detail-2"
+                    aria-expanded="false"
+                    aria-controls="cap-detail-2"
+                  >
+                    <span>Add, Remove & Modify Owner</span>
+                    <i
+                      class="accordion-arrow icon-down transition-transform"
+                    ></i>
+                  </button>
+                </h2>
+                <div
+                  id="cap-detail-2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="cap-btn-2"
+                  data-bs-parent="#token-cap"
+                >
+                  <div class="accordion-body">
+                    <div
+                      class="m-2 mt-0 rounded-lg bg-white p-4 text-base dark:bg-jacarta-800"
+                    >
+                      <p class="mb-3">
+                        Since a decentralized application (dApp) must have
+                        ownership access for authentication purposes, Netword
+                        products must be network owners to perform their tasks.
+                      </p>
+                      <p class="mb-3">
+                        To achieve this, we need to enter the private key of the
+                        network owner into products. This means that if, for any
+                        security issue, one of products is hacked, the hacker
+                        can become the network owner and cause many problems.
+                      </p>
+                      <p class="mb-3">
+                        The solution to this problem is to create a temporary
+                        owner. By doing this, if someone gains access to the
+                        owner's information, they will only have a few minutes
+                        to do any damage before the owner is replaced. We have
+                        added these functions to the token to increase the
+                        network's security and dApp.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+              >
+                <h2 class="accordion-header" id="cap-btn-3">
+                  <button
+                    class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cap-detail-3"
+                    aria-expanded="false"
+                    aria-controls="cap-detail-3"
+                  >
+                    <span>Stake and Unstake</span>
+                    <i
+                      class="accordion-arrow icon-down transition-transform"
+                    ></i>
+                  </button>
+                </h2>
+                <div
+                  id="cap-detail-3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="cap-btn-3"
+                  data-bs-parent="#token-cap"
+                >
+                  <div class="accordion-body">
+                    <div
+                      class="m-2 mt-0 rounded-lg bg-white p-4 text-base dark:bg-jacarta-800"
+                    >
+                      <p>
+                        Users can stake amount of their tokens and receive free
+                        credits for using products as long as they have not
+                        unstaked their tokens.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
+              >
+                <h2 class="accordion-header" id="cap-btn-4">
+                  <button
+                    class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cap-detail-4"
+                    aria-expanded="false"
+                    aria-controls="cap-detail-4"
+                  >
+                    <span>Lock and Unlock</span>
+                    <i
+                      class="accordion-arrow icon-down transition-transform"
+                    ></i>
+                  </button>
+                </h2>
+                <div
+                  id="cap-detail-4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="cap-btn-4"
+                  data-bs-parent="#token-cap"
+                >
+                  <div class="accordion-body">
+                    <div
+                      class="m-2 mt-0 rounded-lg bg-white p-4 text-base dark:bg-jacarta-800"
+                    >
+                      <p class="mb-3">
+                        To control the circulation tokens, the ability to lock
+                        tokens with a timestamp has been implemented so that the
+                        tokens are released for use in the cycle over time.
+                      </p>
+                      <p class="mb-3">
+                        This function is designed so that even the network owner
+                        cannot unlock the tokens before reaching the time lock.
+                        Additionally, through a public function, anyone can call
+                        the treasury wallet addresses and find out when the
+                        token lock period ends.
+                      </p>
+                      <p>
+                        The tokens will not be automatically unlocked when the
+                        time lock period expires. Actually, the tokens will only
+                        become eligible for unlocking. If the network conditions
+                        at the time of unlocking do not require the introduction
+                        of new tokens into the cycle and releasing the locked
+                        tokens would have a negative impact, the tokens will
+                        remain locked even after the expiration of the time lock
+                        period.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="trade">
+        <div class="container">
+          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
+            $WORD Buy & Sell
+          </h2>
+          <p class="text-md">
+            The exchanges listed below will give the opportunity to trade $WORD.
+            Take advantage of the trading capabilities offered by these
+            exchanges to buy and sell the token with ease and security.
+          </p>
+          <div
+            class="grid grid-cols-2 gap-2 py-4 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 xl:gap-4"
+            id="chart"
+          >
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/pancakeswap.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/dextools.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/dxdy.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/helix.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/p2b.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/bitforex.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/gate_io.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/bitfinex.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/bybit.png" />
+              <p class="bg-jacarta-700">soon</p>
+            </a>
+            <a
+              href="#"
+              data-tippy-content="Needs to raise funds of over $7 million."
+              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
+            >
+              <img src="/dist/img/ex/binance.png" />
+              <p class="bg-jacarta-700">late</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="roadmap">
+        <div class="container">
+          <h2 class="mb-4 font-display font-bold text-2xl dark:text-accent">
+            Netword Roadmap
+          </h2>
+          <div class="flex">
+            <ul
+              class="nav nav-tabs space-y-9 self-start border-l-2 border-jacarta-200 py-2 pl-2 md:pl-8 md:w-1/5"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
+                  id="q2-2023-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#q2-2023"
+                  type="button"
+                  role="tab"
+                  aria-controls="q2-2023"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <span class="px-2 font-display font-medium md:text-lg"
+                    >2023 Q2</span
+                  >
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
+                  id="q3-2023-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#q3-2023"
+                  type="button"
+                  role="tab"
+                  aria-controls="q3-2023"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <span class="px-2 font-display font-medium md:text-lg"
+                    >2023 Q3</span
+                  >
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="active nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
+                  id="q4-2023-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#q4-2023"
+                  type="button"
+                  role="tab"
+                  aria-controls="q4-2023"
+                  aria-selected="true"
+                >
+                  <span class="px-2 font-display font-medium md:text-lg"
+                    >2023 Q4</span
+                  >
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
+                  id="q1-2024-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#q1-2024"
+                  type="button"
+                  role="tab"
+                  aria-controls="q1-2024"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <span class="px-2 font-display font-medium md:text-lg"
+                    >2024 Q1</span
+                  >
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
+                  id="q2-2024-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#q2-2024"
+                  type="button"
+                  role="tab"
+                  aria-controls="q2-2024"
+                  aria-selected="false"
+                  tabindex="-1"
+                >
+                  <span class="px-2 font-display font-medium md:text-lg"
+                    >2024 Q2-4</span
+                  >
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content w-full pl-4 text-base">
+              <div
+                class="tab-pane fade"
+                id="q2-2023"
+                role="tabpanel"
+                aria-labelledby="q2-2023-tab"
+              >
+                <h5 class="font-bold text-lg mb-2">Sprint1</h5>
+                <ul class="flex flex-col gap-1">
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Market research and analysis
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Define vision and goals
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Write whitepaper and roadmap
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Determine minimum funds and secure funding
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Assemble core team with the necessary skills
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Assigning advisors and lawyer
+                  </li>
+                </ul>
+                <h5 class="font-bold text-lg mt-3 mb-2">Sprint2</h5>
+                <ul class="flex flex-col gap-1">
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Branding and design process
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Build the technical architecture
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Smart contract development and deploy testnet
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Long-term Task"
+                      class="mr-2 flex h-6 w-6 animate-spin-slow items-center justify-center p-1 text-orange"
+                    >
+                      <i class="icon-spinner"></i>
+                    </div>
+                    Start developing AI translation product
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Building community structure
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="q3-2023"
+                role="tabpanel"
+                aria-labelledby="q3-2023-tab"
+              >
+                <h5 class="font-bold text-lg mb-2">Sprint3</h5>
+                <ul class="flex flex-col gap-1">
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Develop presentation website
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Design First NFTWord Collection
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Publish presentation website
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Create NFT Contract (Ethereum)
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade active show"
+                id="q4-2023"
+                role="tabpanel"
+                aria-labelledby="q4-2023-tab"
+              >
+                <h5 class="font-bold text-lg mt-3 mb-2">Sprint4</h5>
+                <ul class="flex flex-col gap-1">
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Configure Discord channel
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Done"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
+                    >
+                      <i class="icon-check"></i>
+                    </div>
+                    Configure Telegram channel
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="In Progress"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-accent-dark animate-heartBeat"
+                    >
+                      <i class="icon-heart"></i>
+                    </div>
+                    Launch NFT airdrop campaign
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="In Progress"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-accent-dark animate-heartBeat"
+                    >
+                      <i class="icon-heart"></i>
+                    </div>
+                    Hiring for designing other languages of NFTWord
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="q1-2024"
+                role="tabpanel"
+                aria-labelledby="q1-2024-tab"
+              >
+                <h5 class="font-bold text-lg mt-3 mb-2">Sprint5</h5>
+                <ul class="flex flex-col gap-1">
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Close NFTWord airdrop and send prizes
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Extend NFTWord sales program
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Publish AI Translation dApp<i
+                      data-tippy-content="Experimental version"
+                      class="icon-info-circled-alt ml-2"
+                    ></i>
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Design next NFTWord publication
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Extend web3 data in website tracker page
+                  </li>
+                </ul>
+                <h5 class="font-bold text-lg mt-3 mb-2">Sprint6</h5>
+                <ul class="flex flex-col gap-1">
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Add machine proofreading to AI Translation dApp
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Add staking ability to dApp
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Add document translation to dApp
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Mint next NFTWord publication
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-right"></i>
+                    </div>
+                    Legalize company
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="q2-2024"
+                role="tabpanel"
+                aria-labelledby="q2-2024-tab"
+              >
+                <p class="mb-2">
+                  The Netword managed by
+                  <a
+                    class="underline"
+                    href="https://en.wikipedia.org/wiki/Agile_management"
+                    rel="nofollow"
+                    target="_blank"
+                    >Agile system (ISO 21502:2020)<i
+                      class="ml-2 icon-open-link"
+                    ></i
+                  ></a>
+                  so we can arrange tasks for up to two upcoming seasons to
+                  respond better to rapid changes.
+                </p>
+                <p class="mb-4">
+                  However, you can still access the main tasks generally below.
+                </p>
+                <ul class="flex flex-col gap-1">
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Start token seed invest
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Request from a team to audit contract (Probably CertiK)
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Deploy $WORD Smart contract
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Extend translation features
+                    <i
+                      data-tippy-content="like OCR, Browser Extention, CMS Translation, Live conference translation, etc."
+                      class="icon-info-circled-alt ml-2"
+                    ></i>
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Developing human proofreading platform
+                    <i
+                      data-tippy-content="Exclusive on Decentralized Applications"
+                      class="icon-info-circled-alt ml-2"
+                    ></i>
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Starting $WORD token public sale (DEX)
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Internal Buy/Sell $WORD platform
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    $WORD multi-chain bridge platform
+                    <i
+                      data-tippy-content="Change your token between Binance smart chain and Ethereum blockchain in zero fee"
+                      class="icon-info-circled-alt ml-2"
+                    ></i>
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Develop NFT WORD CLUB platform
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Publishing Word Club NFT Collection
+                  </li>
+                  <li class="inline-flex">
+                    <div
+                      data-tippy-content="Not Scheduled"
+                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-jacarta-700"
+                    >
+                      <i class="icon-plus"></i>
+                    </div>
+                    Extend migration with popular services/products
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="faq">
+        <div class="container">
+          <h2 class="mb-4 font-display font-bold text-2xl dark:text-accent">
+            $WORD FAQs
+          </h2>
+          <div class="flex">
+            <div
+              id="faqs-container"
+              class="faqs-container"
+              itemscope
+              itemtype="https://schema.org/FAQPage"
+            >
+              <div
+                id="faq-1"
+                class="faq-singular"
+                itemscope
+                itemprop="mainEntity"
+                itemtype="https://schema.org/Question"
+                aria-expanded="true"
+              >
+                <h3 class="faq-question icon-plus" itemprop="name">
+                  What's WORD Token?
+                </h3>
+                <div
+                  class="faq-answer"
+                  itemscope
+                  itemprop="acceptedAnswer"
+                  itemtype="https://schema.org/Answer"
+                >
+                  <div itemprop="text">
+                    Netword creates a powerful human network based on the
+                    currency of words, where payments are synchronized using the
+                    WORD Token. The community comprises a vast volume of humans,
+                    including all those who require translation, who are
+                    proficient in another language, artists, and art
+                    enthusiasts.
+                  </div>
+                </div>
+              </div>
+              <div
+                id="faq-2"
+                class="faq-singular"
+                itemscope
+                itemprop="mainEntity"
+                itemtype="https://schema.org/Question"
+                aria-expanded="false"
+              >
+                <h3 class="faq-question icon-plus" itemprop="name">
+                  What WORD Token Used For?
+                </h3>
+                <div
+                  class="faq-answer"
+                  itemscope
+                  itemprop="acceptedAnswer"
+                  itemtype="https://schema.org/Answer"
+                >
+                  <div itemprop="text">
+                    To use Netword products and services, purchase exclusive
+                    NFTs, receive rewards and payments, etc., you should use the
+                    $WORD.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-6 md:py-16" id="waitlist">
+        <div class="container text-center">
+          <h2 class="mb-1 font-display text-accent">
+            Join $WORD Token Waitlist
+          </h2>
+          <p class="mb-6">
+            Don't miss $WORD seed investment and airdrop campaign.
+          </p>
+          <button
+            data-bs-toggle="modal"
+            data-bs-target="#subscribeModal"
+            where-data="Token"
+            class="inline-block rounded-full bg-jacarta-500 py-2 px-5 text-center font-semibold text-white transition-all hover:bg-jacarta-600"
+          >
+            Join Waitlist
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="modal fade"
+      id="subscribeModal"
+      tabindex="-1"
+      aria-labelledby="subscribeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog max-w-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="subscribeModalLabel">
+              Subscribe to newsletter
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <i class="icon-x w-10"></i>
+            </button>
+          </div>
+          <div class="modal-body p-3 lg:p-5">
+            <form method="POST" id="subscribeForm">
+              <div
+                id="form-fields"
+                class="max-h-96 overflow-hidden duration-700 transition-all"
+              >
+                <div class="p-1">
+                  <input
+                    type="hidden"
+                    name="whereSubscribed"
+                    id="whereSubscribed"
+                    class="input-item"
+                  />
+                  <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    class="input-item input-style mb-4"
+                    placeholder="Enter your email address"
+                    autocomplete="email"
+                    required
+                  />
+                  <div class="flex items-center space-x-2">
+                    <input
+                      name="terms"
+                      id="sc-terms"
+                      type="checkbox"
+                      required
+                      class="input-item modal-checkbox"
+                    />
+                    <label for="sc-terms" class="text-base"
+                      >I read and agree the Netword
+                      <a href="/terms" class="text-accent">Terms</a> and
+                      <a href="/privacy" class="text-accent"
+                        >Privacy Policy</a
+                      ></label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div id="form-notice"></div>
+              <div class="modal-footer">
+                <button
+                  name="subscribe-form"
+                  id="submit"
+                  type="submit"
+                  class="modal-btn select-none font-bold grayscale-0 transition-all"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #region footer -->
+    <footer
+      class="page-footer text-sm bg-jacarta-100 dark:bg-jacarta-900 pt-12"
+    >
+      <div class="container dark:border-t border-jacarta-700">
+        <div class="flex my-6">
+          <div class="flex justify-between items-center w-full gap-3 flex-wrap">
+            <!-- Logo -->
+            <a href="/" class="">
+              <img
+                src="/dist/img/logo-black.svg"
+                class="h-5 dark:hidden"
+                alt="Netword Logo Black"
+                width="144"
+                height="20"
+                loading="lazy"
+              />
+              <img
+                src="/dist/img/logo-footer-white.svg"
+                class="hidden h-5 dark:block"
+                alt="Netword Logo White"
+                width="144"
+                height="20"
+                loading="lazy"
+              />
+            </a>
+            <!-- Socials -->
+            <div class="flex gap-2 text-white">
+              <a
+                href="https://x.com/networdai"
+                aria-label="Netword Twitter(X)"
+                class="footer-social"
+              >
+                <i class="icon-twitter text-[18px]"></i>
+              </a>
+              <a
+                href="https://t.me/networdai"
+                aria-label="Netword Telegram Channel"
+                class="footer-social"
+              >
+                <i class="icon-telegram text-[18px]"></i>
+              </a>
+              <a
+                href="https://discord.gg/networdai"
+                aria-label="Netword Discord Channel"
+                class="footer-social"
+              >
+                <i class="icon-discord text-[18px]"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- <div class="col-span-full sm:col-span-3 md:col-span-2 md:col-start-7">
+					<p class="mb-6 font-display text-sm text-jacarta-700 dark:text-white">NFT</p>
+					<ul class="flex flex-col space-y-1 dark:text-jacarta-300">
+						<li>
+							<a href="/gallery" class="hover:text-accent dark:hover:text-white">All NFTs</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-span-full sm:col-span-3 md:col-span-2">
+					<p class="mb-6 font-display text-sm text-jacarta-700 dark:text-white">Resources</p>
+					<ul class="flex flex-col space-y-1 dark:text-jacarta-300">
+						<li>
+							<a href="/doc" class="hover:text-accent dark:hover:text-white">Documentation</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-span-full sm:col-span-3 md:col-span-2">
+					<p class="mb-6 font-display text-sm text-jacarta-700 dark:text-white">Products</p>
+					<ul class="flex flex-col space-y-1 dark:text-jacarta-300">
+						<li>
+							<a href="/ai-translation" class="hover:text-accent dark:hover:text-white">AI Translation</a>
+						</li>
+					</ul>
+				</div> -->
+        </div>
+        <div
+          class="flex mt-6 pb-6 justify-between items-center w-full gap-3 flex-wrap"
+        >
+          <span class="text-sm dark:text-jacarta-400"
+            >&copy; 2024 Netword
+          </span>
+          <ul class="flex text-sm gap-4">
+            <li>
+              <a href="/sitemap.xml" class="hover:text-accent">Sitemap</a>
+            </li>
+            <li>
+              <a href="/terms" class="hover:text-accent">Terms</a>
+            </li>
+            <li><a href="/privacy" class="hover:text-accent">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- #endregion -->
+  </body>
+
+  <script src="/dist/js/suggestForm.bundle.js"></script>
+
+  <script src="/dist/js/tokenCustom.bundle.js"></script>
+  <script src="/dist/js/highCharts.bundle.js"></script>
+  <script src="/dist/js/app.bundle.js" defer></script>
+</html>
