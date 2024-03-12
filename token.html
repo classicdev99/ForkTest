@@ -3,8 +3,8 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>WORD Token</title>
-    <meta name="title" content="WORD Token" />
+    <title>DXA Token</title>
+    <meta name="title" content="DXA Token" />
     <meta
       name="description"
       content="Tokenized integrated payment system per word"
@@ -33,7 +33,7 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://deplexAI.ai/token" />
-    <meta property="og:title" content="WORD Token" />
+    <meta property="og:title" content="DXA Token" />
     <meta
       property="og:description"
       content="Tokenized integrated payment system per word"
@@ -45,7 +45,7 @@
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://deplexAI.ai/token" />
-    <meta property="twitter:title" content="WORD Token" />
+    <meta property="twitter:title" content="DXA Token" />
     <meta
       property="twitter:description"
       content="Tokenized integrated payment system per word"
@@ -230,7 +230,7 @@
                       aria-label="Token Description Page"
                       class="submenu-item"
                     >
-                      <span>What's $WORD</span>
+                      <span>What's $DXA</span>
                     </a>
                   </li>
                   <li>
@@ -240,24 +240,6 @@
                       class="submenu-item"
                     >
                       <span>Protocol</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/token#allocation"
-                      aria-label="Token Allocation Section"
-                      class="submenu-item"
-                    >
-                      <span>Allocation</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/token#vesting"
-                      aria-label="Token Vesting Section"
-                      class="submenu-item"
-                    >
-                      <span>Vesting</span>
                     </a>
                   </li>
                   <li>
@@ -276,16 +258,6 @@
                       class="submenu-item"
                     >
                       <span>Capabilities</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/token#trade"
-                      aria-label="Token Trading Channel Section"
-                      class="submenu-item"
-                    >
-                      <span>Buy & Sell</span>
-                      <span class="tag-bubble">soon</span>
                     </a>
                   </li>
                   <li>
@@ -373,9 +345,6 @@
               </a>
               <a href="https://t.me/deplexAIai" class="group">
                 <i class="icon-telegram"></i>
-              </a>
-              <a href="https://discord.gg/deplexAIai" class="group">
-                <i class="icon-discord"></i>
               </a>
             </div>
           </div>
@@ -529,13 +498,13 @@
                 class="mb-4 w-20 md:w-24"
                 src="/dist/img/products/word-token.png"
               />
-              <h1 class="font-display text-2xl dark:text-white">WORD Token</h1>
+              <h1 class="font-display text-2xl dark:text-white">DXA Token</h1>
               <p class="mb-4 text-lg leading-normal dark:text-jacarta-100">
                 Brings back Word's value!
               </p>
               <p class="mb-2 text-lg">
                 DeplexAI creates a powerful human network based on the currency
-                of words, where payments are synchronized using the WORD Token.
+                of words, where payments are synchronized using the DXA Token.
                 The community comprises a vast volume of humans, including all
                 those who require translation, who are proficient in another
                 language, artists, and art enthusiasts.
@@ -578,17 +547,17 @@
       <section class="py-6 md:py-16" id="protocol">
         <div class="container">
           <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
-            $WORD Protocol
+            $DXA Protocol
           </h2>
           <div class="mb-6 justify-between gap-6 lg:mb-0 lg:flex">
             <div class="mb-2 lg:w-2/5 xl:mb-0">
               <p class="mb-2 text-md">
-                $WORD is a multi-chain utility token based on Binance Smart
+                $DXA is a multi-chain utility token based on Binance Smart
                 Chain and Ethereum (Wrapped) that empowers ecosystem for
                 decentralized and unified payments.
               </p>
               <p class="mb-2 text-md">
-                As the open-source protocol layer of the ecosystem, $WORD serves
+                As the open-source protocol layer of the ecosystem, $DXA serves
                 several purposes:
               </p>
             </div>
@@ -644,722 +613,14 @@
           </div>
         </div>
       </section>
-      <section class="py-6 md:py-16" id="allocation">
-        <div class="container">
-          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
-            $WORD Allocation
-          </h2>
-          <p class="mb-2 text-md">
-            The total supply of WORD Token is fixed at
-            <span class="font-semibold">21 billion</span>. No minting capability
-            is exposed through the contract and the total supply cannot be
-            increased. Similarly, the contract does not support token burning,
-            so the total supply will never decrease.
-          </p>
-          <p class="mb-6 text-base">
-            * To see how amounts are calculated,
-            <a class="underline hover:text-accent" href="#"
-              >Download Formulated Excel File</a
-            >.
-          </p>
-          <p class="text-lg font-bold" id="subtitle">Detailed View</p>
-          <button
-            class="mb-4 text-base underline hover:text-accent"
-            id="toggleCharts"
-          >
-            Toggle Charts
-          </button>
-          <div id="chart">
-            <div class="">
-              <div class="mb-6 justify-between gap-6 lg:mb-0 lg:flex">
-                <div class="mb-2 lg:w-2/5 xl:mb-0">
-                  <p class="mb-4">
-                    $WORD tokens are distributed through various channels (CEX,
-                    DEX, dApp) and invested in the following eight categories:
-                  </p>
-                  <div id="token-allocation"></div>
-                </div>
-                <div class="lg:w-3/5">
-                  <div class="accordion mx-auto" id="allocation-detail">
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-1">
-                        <button
-                          class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#a-detail-1"
-                          aria-expanded="true"
-                          aria-controls="a-detail-1"
-                        >
-                          <span>Seed Invest</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="a-detail-1"
-                        class="accordion-collapse collapse show"
-                        aria-labelledby="a-btn-1"
-                        data-bs-parent="#allocation-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">3%</div>
-                                  <div class="after:text-[11px]">
-                                    630,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i>
-                                  </div>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  252,000,000 (40%) will be unlocked at ICO,<br />
-                                  378,000,000 (60%) will be unlocked next 2
-                                  months.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-7">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#a-detail-7"
-                          aria-expanded="true"
-                          aria-controls="a-detail-7"
-                        >
-                          <span>Advisors & Legal</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="a-detail-7"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="a-btn-7"
-                        data-bs-parent="#allocation-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">5%</div>
-                                  <span class="after:text-[11px]"
-                                    >1,050,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  52,500,000(5%) will be unlocked every month
-                                  after ICO.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-2">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#a-detail-2"
-                          aria-expanded="true"
-                          aria-controls="a-detail-2"
-                        >
-                          <span>Private Sale</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="a-detail-2"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="a-btn-2"
-                        data-bs-parent="#allocation-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">7%</div>
-                                  <span class="after:text-[11px]"
-                                    >1,470,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  73,500,000(5%) will be unlocked every month
-                                  after ICO.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-3">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#a-detail-3"
-                          aria-expanded="true"
-                          aria-controls="a-detail-3"
-                        >
-                          <span>Reserve</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="a-detail-3"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="a-btn-3"
-                        data-bs-parent="#allocation-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">10%</div>
-                                  <span class="after:text-[11px]"
-                                    >2,100,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  Initial locked for 28 months after ICO<br />105,000,000(5%)
-                                  will be unlocked monthly until 20 months.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-8">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#a-detail-8"
-                          aria-expanded="true"
-                          aria-controls="a-detail-8"
-                        >
-                          <span>NFT (Ethereum Wrapped)</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="a-detail-8"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="a-btn-8"
-                        data-bs-parent="#allocation-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">10%</div>
-                                  <span class="after:text-[11px]"
-                                    >2,100,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  Initial locked for 12 months after ICO,
-                                  Then<br />105,000,000(5%) will be unlocked
-                                  every month until 20 months.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-5">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#a-detail-5"
-                          aria-expanded="true"
-                          aria-controls="a-detail-5"
-                        >
-                          <span>Marketing & Community</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="a-detail-5"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="a-btn-5"
-                        data-bs-parent="#allocation-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">15%</div>
-                                  <span class="after:text-[11px]"
-                                    >3,150,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  78,750,000(2.5%) will be unlocked monthly
-                                  until 40 months after ICO.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-6">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#a-detail-6"
-                          aria-expanded="true"
-                          aria-controls="a-detail-6"
-                        >
-                          <span>Founders team</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="a-detail-6"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="a-btn-6"
-                        data-bs-parent="#allocation-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">15%</div>
-                                  <span class="after:text-[11px]"
-                                    >3,150,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  Initial locked for 5 months, Then<br />126,000,000(4%)
-                                  will be unlocked monthly until 25 months.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-4">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#a-detail-4"
-                          aria-expanded="true"
-                          aria-controls="a-detail-4"
-                        >
-                          <span>Ecosystem (dApp)</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="a-detail-4"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="a-btn-4"
-                        data-bs-parent="#allocation-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">35%</div>
-                                  <span class="after:text-[11px]"
-                                    >7,350,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  Initial locked for 8 months after ICO, Then<br />183,750,000(2.5%)
-                                  will be unlocked monthly until 40 months.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="hidden">
-              <div class="mb-6 justify-between gap-6 lg:mb-0 lg:flex">
-                <div class="mb-2 lg:w-2/5 xl:mb-0">
-                  <p class="mb-4">
-                    If you're interested to know how $WORD tokens become
-                    available, they generally fall into the following
-                    categories:
-                  </p>
-                  <div id="publicsale-allocation"></div>
-                </div>
-                <div class="lg:w-3/5">
-                  <div class="accordion mx-auto" id="publicsale-detail">
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="a-btn-1">
-                        <button
-                          class="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#p-detail-1"
-                          aria-expanded="true"
-                          aria-controls="p-detail-1"
-                        >
-                          <span>Reserve</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="p-detail-1"
-                        class="accordion-collapse collapse show"
-                        aria-labelledby="p-btn-1"
-                        data-bs-parent="#publicsale-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">10%</div>
-                                  <div class="after:text-[11px]">
-                                    2,100,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i>
-                                  </div>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  252,000,000 (40%) will be unlocked at ICO,<br />
-                                  378,000,000 (60%) will be unlocked 2 months
-                                  after ICO.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="p-btn-2">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#p-detail-2"
-                          aria-expanded="false"
-                          aria-controls="p-detail-2"
-                        >
-                          <span>Private Sale</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="p-detail-2"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="p-btn-2"
-                        data-bs-parent="#publicsale-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">10%</div>
-                                  <span class="after:text-[11px]"
-                                    >2,100,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  147,000,000 (10%) will be unlocked every month
-                                  After 2 Month from ICO.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="p-btn-3">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#p-detail-3"
-                          aria-expanded="true"
-                          aria-controls="p-detail-3"
-                        >
-                          <span>Ecosystem</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="p-detail-3"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="p-btn-3"
-                        data-bs-parent="#publicsale-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">35%</div>
-                                  <span class="after:text-[11px]"
-                                    >7,350,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  1,890,000,000 (30%) unlocked at the beginning
-                                  in DEX<br />4,410,000,000 (70%) will be
-                                  unlocked in CEX (depending on taking time to
-                                  listing token).
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="accordion-item mb-2 overflow-hidden border border-jacarta-100 dark:border-jacarta-700 max-sm:-mx-4 md:rounded-lg"
-                    >
-                      <h2 class="accordion-header" id="p-btn-4">
-                        <button
-                          class="accordion-button collapsed relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-sm text-jacarta-700 dark:bg-jacarta-900 dark:text-white"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#p-detail-4"
-                          aria-expanded="true"
-                          aria-controls="p-detail-4"
-                        >
-                          <span>Public Sale</span>
-                          <i
-                            class="accordion-arrow icon-down transition-transform"
-                          ></i>
-                        </button>
-                      </h2>
-                      <div
-                        id="p-detail-4"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="p-btn-4"
-                        data-bs-parent="#publicsale-detail"
-                      >
-                        <div
-                          class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
-                        >
-                          <table class="mx-auto w-full table-fixed">
-                            <tbody>
-                              <tr class="flex">
-                                <td
-                                  class="py-sm pr-gutter max-w-[170px] flex-1 items-start text-sm font-semibold last-of-type:pr-0"
-                                >
-                                  <div class="text-xl">45%</div>
-                                  <span class="after:text-[11px]"
-                                    >9,450,000,000<i
-                                      class="icon-currency text-[12px] align-top ml-2"
-                                    ></i
-                                  ></span>
-                                </td>
-                                <td
-                                  class="py-sm pr-gutter flex-1 items-start text-sm last-of-type:pr-0"
-                                >
-                                  420,000,000 (10%) unlocked on translation dApp
-                                  stable released, then unlock every month until
-                                  48 months.
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="py-6 md:py-16" id="vesting">
-        <div class="container">
-          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
-            $WORD Vesting
-          </h2>
-          <p class="text-lg font-bold" id="subtitle">Detailed View</p>
-          <button
-            class="text-base underline hover:text-accent"
-            id="toggleCharts"
-          >
-            Toggle Charts
-          </button>
-          <div class="py-4" id="chart">
-            <div class="" id="historical-allocation"></div>
-            <div class="hidden" id="historical-publicsale"></div>
-          </div>
-        </div>
-      </section>
       <section class="py-6 md:py-16" id="use-cases">
         <div class="container" id="usecases">
           <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
-            $WORD Use Cases
+            $DXA Use Cases
           </h2>
           <p class="mb-4 text-md">
             To use DeplexAI products and services, purchase exclusive NFTs,
-            receive rewards and payments, etc., you should use the $WORD. Below
+            receive rewards and payments, etc., you should use the $DXA. Below
             you can see usage in the diagram or explained.
           </p>
           <div class="accordion mx-auto">
@@ -1464,18 +725,18 @@
                         <tspan x="0" y="39.83">be promoted</tspan>
                       </text>
                       <text fill="#fff" transform="translate(241.6 26.22)">
-                        <tspan x="0" y="0">Pay/Get WORD tokens</tspan>
+                        <tspan x="0" y="0">Pay/Get DXA tokens</tspan>
                         <tspan x="0" y="19.92">by transactions for NFT</tspan>
                       </text>
                       <text fill="#fff" transform="translate(232.99 711.37)">
-                        <tspan x="0" y="0">Pay for gas with $WORD</tspan>
+                        <tspan x="0" y="0">Pay for gas with $DXA</tspan>
                       </text>
                       <text fill="#fff" transform="translate(476.41 715.3)">
                         <tspan x="0" y="0">Trade tokens</tspan>
                       </text>
                       <text fill="#fff" transform="translate(716.89 715.31)">
                         <tspan x="0" y="0">Share GPU resources to</tspan>
-                        <tspan x="0" y="19.92">earn $WORD</tspan>
+                        <tspan x="0" y="19.92">earn $DXA</tspan>
                       </text>
                       <text fill="#fff" transform="translate(476.41 741.04)">
                         <tspan x="0" y="0">Staking tokens</tspan>
@@ -1721,14 +982,14 @@
                         <tspan x="0" y="0">Increase your NFT value</tspan>
                       </text>
                       <text fill="#fff" transform="translate(458.79 710.6)">
-                        <tspan x="0" y="0">Pay for gas with $WORD</tspan>
+                        <tspan x="0" y="0">Pay for gas with $DXA</tspan>
                       </text>
                       <text fill="#fff" transform="translate(708.2 714.53)">
                         <tspan x="0" y="0">Trade tokens</tspan>
                       </text>
                       <text fill="#fff" transform="translate(950.69 714.53)">
                         <tspan x="0" y="0">Share GPU resources to</tspan>
-                        <tspan x="0" y="19.92">earn $WORD</tspan>
+                        <tspan x="0" y="19.92">earn $DXA</tspan>
                       </text>
                       <text fill="#fff" transform="translate(1408.47 566.84)">
                         <tspan x="0" y="0">DeplexAI trained to make</tspan>
@@ -1758,7 +1019,7 @@
                         <tspan x="0" y="39.83">be promoted</tspan>
                       </text>
                       <text fill="#fff" transform="translate(463.6 26.22)">
-                        <tspan x="0" y="0">Pay/Get WORD tokens</tspan>
+                        <tspan x="0" y="0">Pay/Get DXA tokens</tspan>
                         <tspan x="0" y="19.92">by transactions for NFT</tspan>
                       </text>
                       <text fill="#fff" transform="translate(947.29 76.14)">
@@ -1835,10 +1096,10 @@
                       class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
                     >
                       <p class="text-sm">
-                        Exclusive NFTs can only be purchased with $WORD. Of
-                        course, you can buy all NFT Words with $WORD. Note that
+                        Exclusive NFTs can only be purchased with $DXA. Of
+                        course, you can buy all NFT Words with $DXA. Note that
                         you can sell Exclusive or Normal NTFs by receiving $ETH
-                        or $WORD.
+                        or $DXA.
                       </p>
                     </div>
                   </div>
@@ -1872,7 +1133,7 @@
                     >
                       <p class="text-sm">
                         You will pay for your AI translation on various products
-                        by $WORD.
+                        by $DXA.
                       </p>
                     </div>
                   </div>
@@ -1909,7 +1170,7 @@
                       class="accordion-body m-2 mt-0 rounded-lg bg-white p-4 font-display dark:bg-jacarta-800"
                     >
                       <p class="text-sm">
-                        About 2 billion $WORDs allocated for reward, including
+                        About 2 billion $DXAs allocated for reward, including
                         community, products, and WordClub engagements.
                       </p>
                     </div>
@@ -1944,7 +1205,7 @@
                     >
                       <p class="text-sm">
                         At Proofreaders Pool™ product, you will proofread
-                        machine translations and get paid by $WORD token.
+                        machine translations and get paid by $DXA token.
                       </p>
                     </div>
                   </div>
@@ -1957,7 +1218,7 @@
       <section class="py-6 md:py-16" id="capabilities">
         <div class="container">
           <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
-            $WORD Contract Capabilities
+            $DXA Contract Capabilities
           </h2>
           <div>
             <p class="mb-2">Contract Source Code:</p>
@@ -1974,7 +1235,7 @@
                     aria-expanded="false"
                     aria-controls="code-detail"
                   >
-                    <span>WORD Contract Source Code (RC)</span>
+                    <span>DXA Contract Source Code (RC)</span>
                     <i
                       class="accordion-arrow icon-down transition-transform"
                     ></i>
@@ -1990,7 +1251,7 @@
                     <div
                       class="m-2 mt-0 rounded-lg bg-white p-4 dark:bg-jacarta-800"
                     >
-                      It's the release candidate version of the $WORD contract,
+                      It's the release candidate version of the $DXA contract,
                       and we are developing DeplexAI dApps by it.
                       <br />
                       The final contract will be released before the public
@@ -2032,7 +1293,7 @@ pragma solidity ^0.8.20;
 */
 contract DeplexAI {
     string public constant name = "Deplex AI";
-    string public constant symbol = "WORD";
+    string public constant symbol = "DXA";
     uint8 public constant decimals = 4;
     uint256 public constant totalSupply = 21 * 10**9 * 10**uint256(decimals);
 
@@ -2458,94 +1719,6 @@ contract DeplexAI {
           </div>
         </div>
       </section>
-      <section class="py-6 md:py-16" id="trade">
-        <div class="container">
-          <h2 class="mb-2 font-display font-bold text-2xl dark:text-accent">
-            $WORD Buy & Sell
-          </h2>
-          <p class="text-md">
-            The exchanges listed below will give the opportunity to trade $WORD.
-            Take advantage of the trading capabilities offered by these
-            exchanges to buy and sell the token with ease and security.
-          </p>
-          <div
-            class="grid grid-cols-2 gap-2 py-4 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 xl:gap-4"
-            id="chart"
-          >
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/pancakeswap.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/dextools.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/dxdy.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/helix.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/p2b.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/bitforex.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/gate_io.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/bitfinex.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/bybit.png" />
-              <p class="bg-jacarta-700">soon</p>
-            </a>
-            <a
-              href="#"
-              data-tippy-content="Needs to raise funds of over $7 million."
-              class="relative rounded-md border border-jacarta-100 bg-jacarta-900 px-6 py-4 text-center opacity-70 hover:bg-jacarta-800 hover:opacity-100 dark:border-jacarta-700"
-            >
-              <img src="/dist/img/ex/binance.png" />
-              <p class="bg-jacarta-700">late</p>
-            </a>
-          </div>
-        </div>
-      </section>
       <section class="py-6 md:py-16" id="roadmap">
         <div class="container">
           <h2 class="mb-4 font-display font-bold text-2xl dark:text-accent">
@@ -2556,56 +1729,7 @@ contract DeplexAI {
               class="nav nav-tabs space-y-9 self-start border-l-2 border-jacarta-200 py-2 pl-2 md:pl-8 md:w-1/5"
               role="tablist"
             >
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
-                  id="q2-2023-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#q2-2023"
-                  type="button"
-                  role="tab"
-                  aria-controls="q2-2023"
-                  aria-selected="false"
-                  tabindex="-1"
-                >
-                  <span class="px-2 font-display font-medium md:text-lg"
-                    >2023 Q2</span
-                  >
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
-                  id="q3-2023-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#q3-2023"
-                  type="button"
-                  role="tab"
-                  aria-controls="q3-2023"
-                  aria-selected="false"
-                  tabindex="-1"
-                >
-                  <span class="px-2 font-display font-medium md:text-lg"
-                    >2023 Q3</span
-                  >
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button
-                  class="active nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
-                  id="q4-2023-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#q4-2023"
-                  type="button"
-                  role="tab"
-                  aria-controls="q4-2023"
-                  aria-selected="true"
-                >
-                  <span class="px-2 font-display font-medium md:text-lg"
-                    >2023 Q4</span
-                  >
-                </button>
-              </li>
+
               <li class="nav-item" role="presentation">
                 <button
                   class="nav-link nav-link--style-3 relative flex items-center whitespace-nowrap text-jacarta-300 dark:hover:text-white"
@@ -2815,15 +1939,6 @@ contract DeplexAI {
                     >
                       <i class="icon-check"></i>
                     </div>
-                    Configure Discord channel
-                  </li>
-                  <li class="inline-flex">
-                    <div
-                      data-tippy-content="Done"
-                      class="mr-2 flex h-6 w-6 items-center justify-center p-1 text-green"
-                    >
-                      <i class="icon-check"></i>
-                    </div>
                     Configure Telegram channel
                   </li>
                   <li class="inline-flex">
@@ -2842,7 +1957,7 @@ contract DeplexAI {
                     >
                       <i class="icon-heart"></i>
                     </div>
-                    Hiring for designing other languages of NFTWord
+                    Hiring for designing other languages of NFTDXA
                   </li>
                 </ul>
               </div>
@@ -2860,7 +1975,7 @@ contract DeplexAI {
                     >
                       <i class="icon-right"></i>
                     </div>
-                    Close NFTWord airdrop and send prizes
+                    Close NFTDXA airdrop and send prizes
                   </li>
                   <li class="inline-flex">
                     <div
@@ -2868,7 +1983,7 @@ contract DeplexAI {
                     >
                       <i class="icon-right"></i>
                     </div>
-                    Extend NFTWord sales program
+                    Extend NFTDXA sales program
                   </li>
                   <li class="inline-flex">
                     <div
@@ -2887,7 +2002,7 @@ contract DeplexAI {
                     >
                       <i class="icon-right"></i>
                     </div>
-                    Design next NFTWord publication
+                    Design next NFTDXA publication
                   </li>
                   <li class="inline-flex">
                     <div
@@ -2930,7 +2045,7 @@ contract DeplexAI {
                     >
                       <i class="icon-right"></i>
                     </div>
-                    Mint next NFTWord publication
+                    Mint next NFTDXA publication
                   </li>
                   <li class="inline-flex">
                     <div
@@ -2991,7 +2106,7 @@ contract DeplexAI {
                     >
                       <i class="icon-plus"></i>
                     </div>
-                    Deploy $WORD Smart contract
+                    Deploy $DXA Smart contract
                   </li>
                   <li class="inline-flex">
                     <div
@@ -3026,7 +2141,7 @@ contract DeplexAI {
                     >
                       <i class="icon-plus"></i>
                     </div>
-                    Starting $WORD token public sale (DEX)
+                    Starting $DXA token public sale (DEX)
                   </li>
                   <li class="inline-flex">
                     <div
@@ -3035,7 +2150,7 @@ contract DeplexAI {
                     >
                       <i class="icon-plus"></i>
                     </div>
-                    Internal Buy/Sell $WORD platform
+                    Internal Buy/Sell $DXA platform
                   </li>
                   <li class="inline-flex">
                     <div
@@ -3044,7 +2159,7 @@ contract DeplexAI {
                     >
                       <i class="icon-plus"></i>
                     </div>
-                    $WORD multi-chain bridge platform
+                    $DXA multi-chain bridge platform
                     <i
                       data-tippy-content="Change your token between Binance smart chain and Ethereum blockchain in zero fee"
                       class="icon-info-circled-alt ml-2"
@@ -3057,7 +2172,7 @@ contract DeplexAI {
                     >
                       <i class="icon-plus"></i>
                     </div>
-                    Develop NFT WORD CLUB platform
+                    Develop NFT DXA CLUB platform
                   </li>
                   <li class="inline-flex">
                     <div
@@ -3066,7 +2181,7 @@ contract DeplexAI {
                     >
                       <i class="icon-plus"></i>
                     </div>
-                    Publishing Word Club NFT Collection
+                    Publishing DXA Club NFT Collection
                   </li>
                   <li class="inline-flex">
                     <div
@@ -3086,7 +2201,7 @@ contract DeplexAI {
       <section class="py-6 md:py-16" id="faq">
         <div class="container">
           <h2 class="mb-4 font-display font-bold text-2xl dark:text-accent">
-            $WORD FAQs
+            $DXA FAQs
           </h2>
           <div class="flex">
             <div
@@ -3104,7 +2219,7 @@ contract DeplexAI {
                 aria-expanded="true"
               >
                 <h3 class="faq-question icon-plus" itemprop="name">
-                  What's WORD Token?
+                  What's DXA Token?
                 </h3>
                 <div
                   class="faq-answer"
@@ -3115,7 +2230,7 @@ contract DeplexAI {
                   <div itemprop="text">
                     DeplexAI creates a powerful human network based on the
                     currency of words, where payments are synchronized using the
-                    WORD Token. The community comprises a vast volume of humans,
+                    DXA Token. The community comprises a vast volume of humans,
                     including all those who require translation, who are
                     proficient in another language, artists, and art
                     enthusiasts.
@@ -3131,7 +2246,7 @@ contract DeplexAI {
                 aria-expanded="false"
               >
                 <h3 class="faq-question icon-plus" itemprop="name">
-                  What WORD Token Used For?
+                  What DXA Token Used For?
                 </h3>
                 <div
                   class="faq-answer"
@@ -3142,7 +2257,7 @@ contract DeplexAI {
                   <div itemprop="text">
                     To use DeplexAI products and services, purchase exclusive
                     NFTs, receive rewards and payments, etc., you should use the
-                    $WORD.
+                    $DXA.
                   </div>
                 </div>
               </div>
@@ -3153,10 +2268,10 @@ contract DeplexAI {
       <section class="py-6 md:py-16" id="waitlist">
         <div class="container text-center">
           <h2 class="mb-1 font-display text-accent">
-            Join $WORD Token Waitlist
+            Join $DXA Token Waitlist
           </h2>
           <p class="mb-6">
-            Don't miss $WORD seed investment and airdrop campaign.
+            Don't miss $DXA seed investment and airdrop campaign.
           </p>
           <button
             data-bs-toggle="modal"
@@ -3266,7 +2381,7 @@ contract DeplexAI {
                 loading="lazy"
               />
               <img
-                src="/dist/img/logo-footer-white.svg"
+                src="/dist/img/logo-footer-white.png"
                 class="hidden h-5 dark:block"
                 alt="DeplexAI Logo White"
                 width="144"
@@ -3289,13 +2404,6 @@ contract DeplexAI {
                 class="footer-social"
               >
                 <i class="icon-telegram text-[18px]"></i>
-              </a>
-              <a
-                href="https://discord.gg/deplexAIai"
-                aria-label="DeplexAI Discord Channel"
-                class="footer-social"
-              >
-                <i class="icon-discord text-[18px]"></i>
               </a>
             </div>
           </div>
