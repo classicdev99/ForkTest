@@ -1,11 +1,29 @@
-{ "routes": [
-    { "src": "/[^.]+", "dest": "/", "status": 200 },
-    { "src": "/ai-translation", "dest": "/ai-translation.html"},
-    { "src": "/gpu-sharing", "dest": "/gpu-sharing.html"},
-    { "src": "/nft", "dest": "/nft.html"},
-    { "src": "/proofreaders", "dest": "/proofreaders.html"},
-    { "src": "/tracker", "dest": "/tracker.html"},
-    { "src": "/nft/nft-word", "dest": "/nft/nft-word.html"},
-    { "src": "/nft/gallery", "dest": "/nft/gallery.html"},
-    { "src": "/tracker", "dest": "/tracker.html"}
-    ] }
+{ 
+    "routes": [
+        { "src": "/", "dest": "/", "status": 200 },
+        {
+            "src": "/tracker",
+            "dest": "tracker.html"
+        },
+        {
+            "src": "/nft",
+            "dest": "nft.html"
+        },
+        {
+            "src": "/ai-translation",
+            "dest": "ai-translation.html"
+        },
+        {
+            "src": "/token",
+            "dest": "token.html"
+        },
+        {
+            "src": "/proofreaders",
+            "dest": "proofreaders.html"
+        },
+        {
+            "src": "/gpu-sharing",
+            "dest": "gpu-sharing.html"
+        }
+    ] 
+}
