@@ -15,7 +15,7 @@
         },
         {
             "src": "/nft/nft-gallery",
-            "dest": "nft/nft-gallery.html"
+            "dest": "nft/gallery.html"
         },
         {
             "src": "/ai-translation",
