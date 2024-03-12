@@ -9910,7 +9910,7 @@
         })(),
         new (class {
           constructor() {
-            Fe("[data-tippy-content]", { theme: "netword" });
+            Fe("[data-tippy-content]", { theme: "Deplox AI" });
           }
         })(),
         new (class {
