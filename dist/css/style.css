@@ -423,7 +423,7 @@ pre[class*="language-"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
-  font-family: deploxAI-icon;
+  font-family: deplexAI-icon;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -2689,7 +2689,7 @@ svg .l4 {
 }
 @font-face {
   font-display: swap;
-  font-family: deploxAI-icon;
+  font-family: deplexAI-icon;
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/7c74ec8417f41ac80862.woff2?95376352) format("woff2");
@@ -3547,29 +3547,29 @@ input[type="search"]::-webkit-search-results-decoration {
   top: 0;
   width: 100%;
 }
-.tippy-box[data-theme~="Deplox AI"] {
+.tippy-box[data-theme~="Deplex AI"] {
   --tw-bg-opacity: 1;
   background-color: #3b82f6;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
-.tippy-box[data-theme~="Deplox AI"][data-placement^="top"] > .tippy-arrow:before {
+.tippy-box[data-theme~="Deplex AI"][data-placement^="top"] > .tippy-arrow:before {
   --tw-border-opacity: 1;
   border-top-color: #3b82f6;
   border-top-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
-.tippy-box[data-theme~="Deplox AI"][data-placement^="bottom"]
+.tippy-box[data-theme~="Deplex AI"][data-placement^="bottom"]
   > .tippy-arrow:before {
   --tw-border-opacity: 1;
   border-bottom-color: #3b82f6;
   border-bottom-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
-.tippy-box[data-theme~="Deplox AI"][data-placement^="left"]
+.tippy-box[data-theme~="Deplex AI"][data-placement^="left"]
   > .tippy-arrow:before {
   --tw-border-opacity: 1;
   border-left-color: #3b82f6;
   border-left-color: rgb(59 130 246 / var(--tw-border-opacity));
 }
-.tippy-box[data-theme~="Deplox AI"][data-placement^="right"]
+.tippy-box[data-theme~="Deplex AI"][data-placement^="right"]
   > .tippy-arrow:before {
   --tw-border-opacity: 1;
   border-right-color: #3b82f6;
