@@ -423,7 +423,7 @@ pre[class*="language-"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
-  font-family: netword-icon;
+  font-family: deploxAI-icon;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -2689,7 +2689,7 @@ svg .l4 {
 }
 @font-face {
   font-display: swap;
-  font-family: netword-icon;
+  font-family: deploxAI-icon;
   font-style: normal;
   font-weight: 400;
   src: url(../fonts/7c74ec8417f41ac80862.woff2?95376352) format("woff2");
