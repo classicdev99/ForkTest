@@ -6,7 +6,7 @@
     <title>404 Not Found</title>
     <meta name="title" content="404 Not Found">
     <meta name="description" content="The page you are looking for does not exist. It might have been moved or deleted.">
-    <link rel="canonical" href="https://deplexAI.ai/404"/>
+    <link rel="canonical" href="https://deplexai.com/404"/>
     <meta name="theme-color" content="#000821">
     <meta name="language" content="en">
     <meta name="robots" content="index, follow">
@@ -21,13 +21,13 @@
     <meta name="keywords" content="">
 
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://deplexAI.ai/404" />
+    <meta property="og:url" content="https://deplexai.com/404" />
     <meta property="og:title" content="404 Not Found" />
     <meta property="og:description" content="The page you are looking for does not exist. It might have been moved or deleted." />
     <meta property="og:image" content=""/>
 
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://deplexAI.ai/404" />
+    <meta property="twitter:url" content="https://deplexai.com/404" />
     <meta property="twitter:title" content="404 Not Found" />
     <meta property="twitter:description" content="The page you are looking for does not exist. It might have been moved or deleted." />
     <meta property="twitter:image" content="" />
@@ -182,7 +182,7 @@
 										</a>
 									</li>
 									<li>
-										<a href="https://docs.deplexAI.ai/" aria-label="Documentation Page" class="submenu-item">
+										<a href="https://docs.deplexai.com/" aria-label="Documentation Page" class="submenu-item">
 											<span>Docs</span>
 										</a>
 									</li>
