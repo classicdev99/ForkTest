@@ -38,10 +38,6 @@
             "dest": "privacy.html"
         },
         {
-            "src": "/sitemap.xml",
-            "dest": "sitemap.xml"
-        },
-        {
             "src": "/gpu-sharing",
             "dest": "gpu-sharing.html"
         }
