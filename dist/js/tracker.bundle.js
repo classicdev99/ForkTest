@@ -96,8 +96,8 @@
 										</a>
 									</li>
 									<li>
-										<a href="/nft/nft-word" aria-label="NFT Word Collection Page" class="submenu-item">
-											<span>NFT Word</span>
+										<a href="/nft/nft-word" aria-label="NFT DXA Collection Page" class="submenu-item">
+											<span>NFT DXA</span>
 										</a>
 									</li>
 									<li>
