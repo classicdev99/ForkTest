@@ -195,7 +195,7 @@
 					<div class="mt-10 w-full lg:hidden">
 						<hr class="my-5 h-px border-0 bg-jacarta-100 dark:bg-jacarta-700" />
 						<div class="flex items-center justify-center space-x-5">
-							<a href="https://twitter.com/Deplex_AIai" class="group">
+							<a href="https://twitter.com/Deplex_AI" class="group">
 								<i class="icon-twitter"></i>
 							</a>
 							<a href="https://t.me/deplex_ai" class="group">
@@ -296,7 +296,7 @@
 					</a>
 					<!-- Socials -->
 					<div class="flex gap-2 text-white">
-						<a href="https://twitter.com/Deplex_AIai" aria-label="DeplexAI Twitter(X)" class="footer-social">
+						<a href="https://twitter.com/Deplex_AI" aria-label="DeplexAI Twitter(X)" class="footer-social">
 							<i class="icon-twitter text-[18px]"></i>
 						</a>
 						<a href="https://t.me/deplex_ai" aria-label="DeplexAI Telegram Channel" class="footer-social">
