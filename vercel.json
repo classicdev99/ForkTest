@@ -14,10 +14,6 @@
             "dest": "nft/nft-word.html"
         },
         {
-            "src": "/nft/gallery",
-            "dest": "nft/gallery.html"
-        },
-        {
             "src": "/ai-translation",
             "dest": "ai-translation.html"
         },
